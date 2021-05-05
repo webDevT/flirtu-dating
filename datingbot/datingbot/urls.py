@@ -18,6 +18,7 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^$', Main, name='index'),
     url(r'^launch-bot/$', Main, name='launch_bot'),
+    url(r'^contact-us-send-mail/$', Main, name='contact_us_send_mail'),
     url(r'^agreement/$', TemplateI18NView.as_view(template_name='agreement.html'), name='agreement'),
     url(r'^about-us/$', TemplateI18NView.as_view(template_name='about-us.html'), name='about_us'),
     url(r'^faq/$', TemplateI18NView.as_view(template_name='faq.html'), name='faq'),
