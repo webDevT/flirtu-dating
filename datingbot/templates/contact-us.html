@@ -9,28 +9,29 @@
 </h2>
 <div class="contact-us__form">
     <div class="contact-us__sub-title">
-        {% trans 'Есть вопрос, идея или просто хотите поболтать? <br> Наши контактные данные ниже' %}
+      {% trans "У вас есть вопрос, идея или просто хотите поболтать? <br> Мы оставили наши контакты на странице ниже" %}
 </div>
-    <form action="">
+    <form action="{% url "contact_us_send_mail" %}" method="POST">
+        {% csrf_token %}
 
         <div class="form-row">
-            <label for="" class="label">{% trans 'Ваше Имя' %}</label>
-            <input type="text" placeholder="Name">
+            <label for="" class="label">{% trans "Ваше Имя" %}</label>
+            <input type="text" name="name" placeholder="{% trans "Имя" %}">
         </div>
 
          <div class="form-row">
             <label for="" class="label">{% trans 'Ваш Email' %}</label>
-            <input type="text" placeholder="Email">
+            <input type="text" name="email" placeholder="{% trans "Email" %}">
         </div>
 
         <div class="form-row">
-            <label for="" class="label">{% trans 'Сообщение' %}</label>
-            <textarea name="" id="" cols="" rows="" placeholder="Message"></textarea>
+            <label for="" class="label">{% trans "Сообщение" %}</label>
+            <textarea name="message" id="" cols="" rows="" placeholder="{% trans "Сообщение" %}"></textarea>
         </div>
 
         <div class="form-button">
-            <button type="" class="button">
-           {% trans 'ОТПРАВИТЬ' %}
+            <button type="submit" class="button">
+            {% trans "ОТПРАВИТЬ" %}
         </button>
         </div>
     </form>

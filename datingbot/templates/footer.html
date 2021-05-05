@@ -1,7 +1,7 @@
 {% load i18n static %}
 
    <!-- ---------------start footer------------- -->
-    <footer class="footer">
+<footer class="footer">
 
         <div class="footer__title">
             {% trans 'Присоединяйтесь прямо сейчас' %}
@@ -10,11 +10,7 @@
             {% trans 'Станьте частью крупнейшей в мире социальной сети для новых знакомств!' %}
         </div>
         <div class="button">
-            {% if deeplink_param %}
-            <a href="https://t.me/Flirtu_bot?start=system_{{ deeplink_param }}">{% trans 'Открыть в Telegram' %}</a>
-            {% else %}
-            <a href="https://t.me/Flirtu_bot?start={% if 'start' in request.GET %}{{ request.GET.start }}{% else %}website{% endif %}">{% trans 'Открыть в Telegram' %}</a>
-            {% endif %}
+            <a href="{% url 'launch_bot' %}{% if query_string %}?{{ query_string }}{% endif %}">{% trans 'Начать знакомиться в Telegram' %}</a>
         </div>
         <div class="container-fluid footer__bottom">
             <div class="footer__copy">
@@ -33,8 +29,8 @@
             <div class="footer__menu">
                 <div>
             <a href="{% url 'faq' %}" target="_blank">{% trans 'Вопросы о Flirtu' %}</a>
-            <a href="{% url "about_us" %}" target="_blank">{% trans 'О нас' %}</a>
-            <a href="{% url "contact_us" %}" target="_blank">{% trans 'Связь с нами' %}</a>
+            <a href="{% url "about_us" %}" target="_blank">{% trans "О нас" %}</a>
+            <a href="{% url "contact_us" %}" target="_blank">{% trans "Связь с нами" %}</a>
             <div class="linkedin-wrapper">
                 <a href="https://www.linkedin.com/company/flirtu-dating/" class="linkedin" target="_blank">
               <?xml version="1.0" encoding="iso-8859-1"?>

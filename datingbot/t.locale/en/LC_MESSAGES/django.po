@@ -3,109 +3,165 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-05 16:57+0300\n"
-"PO-Revision-Date: 2021-05-05 17:04+0300\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
+"POT-Creation-Date: 2021-05-05 17:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
 
-#: .\templates\contact-us.html:8
+#: _user/templates/chat.html:117
+#, python-format
+msgid "Вы общаетесь как %(name)s"
+msgstr "You are logged in as %(name)s"
+
+#: templates/admin/_user_change_list_template.html:31
+#: templates/admin/story_change_list_template.html:31
+msgid "Home"
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:49
+#: templates/admin/story_change_list_template.html:49
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:58
+#: templates/admin/story_change_list_template.html:58
+msgid "Please correct the error below."
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:58
+#: templates/admin/story_change_list_template.html:58
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:73
+#: templates/admin/story_change_list_template.html:73
+msgid "Filter"
+msgstr ""
+
+#: templates/contact-us.html:8
+#| msgid "Связь с нами"
 msgid "Связаться с нами"
 msgstr "Contact us"
 
-#: .\templates\contact-us.html:12
+#: templates/contact-us.html:12
+#| msgid ""
+#| "У вас есть вопрос или хотите просто поболтать? <br> Мы оставили наши "
+#| "контакты на странице ниже"
 msgid ""
-"Есть вопрос, идея или просто хотите поболтать? <br> Наши контактные данные "
-"ниже"
+"У вас есть вопрос, идея или просто хотите поболтать? <br> Мы оставили наши "
+"контакты на странице ниже"
 msgstr ""
-"Have a question, an idea or just want to chat? <br>\n"
-"Find our contact details below"
+"Have a question, an idea or just want to chat? <br> Find our contact details "
+"below"
 
-#: .\templates\contact-us.html:17
+#: templates/contact-us.html:18
+#| msgid "Ваше имя"
 msgid "Ваше Имя"
 msgstr "Your Name"
 
-#: .\templates\contact-us.html:22
+#: templates/contact-us.html:19
+msgid "Имя"
+msgstr "Name"
+
+#: templates/contact-us.html:23
 msgid "Ваш Email"
 msgstr "Your Email"
 
-#: .\templates\contact-us.html:27
+#: templates/contact-us.html:24
+msgid "Email"
+msgstr ""
+
+#: templates/contact-us.html:28 templates/contact-us.html.py:29
 msgid "Сообщение"
 msgstr "Message"
 
-#: .\templates\contact-us.html:33
+#: templates/contact-us.html:34
 msgid "ОТПРАВИТЬ"
 msgstr "SEND"
 
-#: .\templates\foo.html:7
-msgid "123"
-msgstr ""
-
-#: .\templates\footer.html:7
+#: templates/footer.html:7 templates/plain-page-base.html.py:67
 msgid "Присоединяйтесь прямо сейчас"
 msgstr "Join Now"
 
-#: .\templates\footer.html:10
+#: templates/footer.html:10 templates/plain-page-base.html.py:70
 msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
 msgstr "Become a part of the world's largest social networking site!"
 
-#: .\templates\footer.html:14 .\templates\footer.html.py:16
-msgid "Открыть в Telegram"
-msgstr "Open Telegram"
+#: templates/footer.html:13 templates/index.html.py:66
+#: templates/plain-page-base.html:73
+msgid "Начать знакомиться в Telegram"
+msgstr "Open in Telegram"
 
-#: .\templates\footer.html:25
+#: templates/footer.html:21 templates/plain-page-base.html.py:81
 msgid "Политика конфиденциальности"
 msgstr "Privacy Policy "
 
-#: .\templates\footer.html:27
+#: templates/footer.html:23 templates/index.html.py:171
+#: templates/index.html:179 templates/plain-page-base.html.py:83
 msgid "Настройки Cookies"
-msgstr "Cookies Setting"
+msgstr "Cookies Settings"
 
-#: .\templates\footer.html:30
+#: templates/footer.html:26 templates/plain-page-base.html.py:86
 msgid "Пользовательское соглашение"
 msgstr "Terms of use"
 
-#: .\templates\footer.html:35 .\templates\header.html.py:24
+#: templates/footer.html:31 templates/header.html.py:24
+#: templates/plain-page-base.html:38 templates/plain-page-base.html.py:91
 msgid "Вопросы о Flirtu"
 msgstr "FAQ"
 
-#: .\templates\footer.html:36 .\templates\header.html.py:18
+#: templates/footer.html:32 templates/header.html.py:18
+#: templates/plain-page-base.html:32
 msgid "О нас"
 msgstr "About us"
 
-#: .\templates\footer.html:37 .\templates\header.html.py:19
+#: templates/footer.html:33 templates/header.html.py:19
+#: templates/plain-page-base.html:33
 msgid "Связь с нами"
 msgstr "Contact us"
 
-#: .\templates\header.html:20
-msgid "Поддержка"
-msgstr "Support"
-
-#: .\templates\header.html:27
+#: templates/header.html:20 templates/plain-page-base.html.py:34
 msgid "Помощь"
 msgstr "Help"
 
-#: .\templates\header.html:36
+#: templates/header.html:27 templates/plain-page-base.html.py:41
+msgid "Помощь пользователю"
+msgstr "Customer Support"
+
+#: templates/header.html:35 templates/plain-page-base.html.py:53
 msgid "Регистрация"
 msgstr "Sign up"
 
-#: .\templates\index.html:8 .\templates\plain-page-base.html.py:8
+#: templates/index.html:8 templates/payment-cancel.html.py:8
+#: templates/payment-cancel.html:19 templates/payment-success.html.py:8
+#: templates/payment-success.html:36
+#: templates/payment-vip-trial-not-supported.html:8
+#: templates/payment-vip-trial-not-supported.html:19
+#: templates/plain-page-base.html:8 templates/premium-plan-fortumo.html.py:9
+#: templates/premium-plan-fortumo.html:32
+#: templates/premium-plan-with-trial.html:9
+#: templates/premium-plan-with-trial.html:31 templates/premium-plan.html:9
+#: templates/premium-plan.html.py:22 templates/premium.html:9
+#: templates/premium.html.py:31 templates/unitpay-paying-form.html:8
+#: templates/unitpay-paying-form.html:21
 msgid "Знакомства в Telegram"
 msgstr "Telegram Dating"
 
-#: .\templates\index.html:60
+#: templates/index.html:60
 msgid "Знакомства внутри Telegram Messenger"
 msgstr "Dating in Telegram Messenger"
 
-#: .\templates\index.html:62
+#: templates/index.html:62
 msgid ""
 "Оценивайте фото людей поблизости от Вас <br>\n"
 "и при взаимной симпатии - общайтесь <br>\n"
@@ -115,59 +171,56 @@ msgstr ""
 "and with mutual sympathy - communicate <br>\n"
 "directly directly to Telegram."
 
-#: .\templates\index.html:67 .\templates\index.html.py:69
-msgid "Начать знакомиться в Telegram"
-msgstr "Start dating in Telegram"
-
-#: .\templates\index.html:74
+#: templates/index.html:69
 #, python-format
 msgid "🔐 100%% Бесплатно и Анонимно"
 msgstr "🔐 100%% Free and Anonymously"
 
-#: .\templates\index.html:94
+#: templates/index.html:89
 msgid "Выбирайте"
 msgstr "Choose"
 
-#: .\templates\index.html:96
+#: templates/index.html:91
 msgid "Просматривайте фотографии пользователей и отмечайте симпатии!"
 msgstr "View user photos and mark likes!"
 
-#: .\templates\index.html:104
+#: templates/index.html:99
 msgid "Общайтесь"
 msgstr "Communicate"
 
-#: .\templates\index.html:106
+#: templates/index.html:101
 msgid ""
-"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента "
-"можно переходить в приват!"
+"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого "
+"момента можно переходить в приват!"
 msgstr ""
 "With mutual sympathy, COINCIDENCE will occur! This means that from this "
 "moment you can go to private!"
 
-#: .\templates\index.html:124
+#: templates/index.html:119
 msgid "Новые Знакомства в Вашем Городе"
 msgstr "New acquaintances In your city"
 
-#: .\templates\index.html:126
+#: templates/index.html:121
 msgid ""
 "Flirtu не показывает вашего точного местоположения, но помогает вам завести "
 "новые знакомства с людьми поблизости."
 msgstr ""
-"Flirtu does not show your exact location, but it helps you meet people nearby."
+"Flirtu does not show your exact location, but it helps you meet people "
+"nearby."
 
-#: .\templates\index.html:134
+#: templates/index.html:129
 msgid "Знакомства по Интересам"
 msgstr "Dating by Interest"
 
-#: .\templates\index.html:136
+#: templates/index.html:131
 msgid ""
-"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс "
-"познакомиться с кем-то, кто разделяет ваши интересы."
+"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше "
+"шанс познакомиться с кем-то, кто разделяет ваши интересы."
 msgstr ""
 "The more interests you list, the more people will notice you and the higher "
 "the chance of meeting someone who shares your interests."
 
-#: .\templates\index.html:161
+#: templates/index.html:157
 msgid ""
 "Мы используем файлы cookie для улучшения содержания <br> и предложений на "
 "нашем сайте."
@@ -175,27 +228,27 @@ msgstr ""
 " We use cookies to improve the content <br>\n"
 " and offerings on our site."
 
-#: .\templates\index.html:164
+#: templates/index.html:160
 msgid "Узнайте больше о нашей политике в отношении файлов cookie "
 msgstr "Learn more about our cookie policy"
 
-#: .\templates\index.html:165
+#: templates/index.html:161
 msgid "здесь"
 msgstr "here"
 
 #: .\templates\index.html:171
-msgid "Принять все файлы cookie"
+msgid "Принять все файлы cookies"
 msgstr "Accept all cookies"
 
 #: .\templates\index.html:175 .\templates\index.html.py:183
 msgid "Настройки Cookie"
 msgstr "Cookie Settings"
 
-#: .\templates\index.html:196
+#: templates/index.html:192
 msgid "Hеобходимые"
 msgstr "Necessary"
 
-#: .\templates\index.html:200
+#: templates/index.html:196
 msgid ""
 "Эти файлы cookie необходимы для работы веб-сайта и не могут быть отключены в "
 "наших системах. Обычно они устанавливаются только в ответ на ваши действия, "
@@ -207,25 +260,25 @@ msgstr ""
 "made by you which amount to a request for services, such as setting your "
 "privacy preferences, logging in, or filling in forms."
 
-#: .\templates\index.html:208
+#: templates/index.html:204
 msgid "Предпочтительные"
 msgstr "Preferences"
 
-#: .\templates\index.html:212
+#: templates/index.html:208
 msgid ""
-"Эти файлы cookie позволяют веб-сайту предоставлять расширенные функциональные "
-"возможности и персонализацию. Они могут быть установлены нами или сторонними "
-"поставщиками, услуги которых мы добавили на наши страницы."
+"Эти файлы cookie позволяют веб-сайту предоставлять расширенные "
+"функциональные возможности и персонализацию. Они могут быть установлены нами "
+"или сторонними поставщиками, услуги которых мы добавили на наши страницы."
 msgstr ""
 "These cookies enable the website to provide enhanced functionality and "
 "personalization. They may be set by us or third-party providers whose "
 "services we have added to our pages."
 
-#: .\templates\index.html:220
+#: templates/index.html:216
 msgid "Статистика"
 msgstr "Statistics"
 
-#: .\templates\index.html:224
+#: templates/index.html:220
 msgid ""
 "Эти файлы cookie позволяют нам подсчитывать посещения и источники трафика, "
 "чтобы мы могли измерять и улучшать производительность нашего сайта. Они "
@@ -236,29 +289,154 @@ msgstr ""
 "measure and improve the performance of our site. They help us to understand "
 "how pages are used and how visitors move around the website."
 
-#: .\templates\index.html:232
+#: templates/index.html:228
 msgid "Маркетинг"
 msgstr "Marketing"
 
-#: .\templates\index.html:236
+#: templates/index.html:232
 msgid ""
 "Эти файлы cookie могут быть установлены нашими рекламными партнерами. Они "
-"могут использовать файлы cookie для создания профиля ваших интересов и показа "
-"релевантной рекламы на других сайтах."
+"могут использовать файлы cookie для создания профиля ваших интересов и "
+"показа релевантной рекламы на других сайтах."
 msgstr ""
 "These cookies may be set by our advertising partners. They may use the "
 "cookies to build a profile of your interests and show relevant adverts on "
 "other sites."
 
-#: .\templates\index.html:240
+#: templates/index.html:236
 msgid "Сохранить"
 msgstr "Save"
 
-#: .\templates\translates.html:3
+#: templates/payment-cancel.html:35
+msgid "Вы отменили процесс оплаты."
+msgstr "Payment was canceled."
+
+#: templates/payment-cancel.html:38 templates/payment-success.html.py:55
+#: templates/payment-vip-trial-not-supported.html:38
+msgid "Пожалуйста, вернитесь в приложение Telegram."
+msgstr "Please return to the Flirtu."
+
+#: templates/payment-cancel.html:48 templates/payment-success.html.py:65
+#: templates/payment-vip-trial-not-supported.html:48
+msgid "Открыть в Telegram"
+msgstr "Open Telegram"
+
+#: templates/payment-success.html:49
+msgid "🥳 Спасибо за покупку! 🎉"
+msgstr "🥳 Congratulations! 🎉"
+
+#: templates/payment-success.html:52
+msgid "Поздравляем, ваша покупка успешно совершена."
+msgstr "Your payment was processed successfully. 🎉"
+
+#: templates/payment-vip-trial-not-supported.html:35
+msgid "Бесплатный VIP доступ не доступен."
+msgstr ""
+
+#: templates/premium-plan-fortumo.html:46 templates/premium.html.py:45
+msgid "Уникальное предложение!"
+msgstr "Limited sale!"
+
+#: templates/premium-plan-fortumo.html:49 templates/premium.html.py:48
+msgid "Активируйте VIP и Экономьте Деньги"
+msgstr "Save you money while activating VIP"
+
+#: templates/premium-plan-fortumo.html:53
+#: templates/premium-plan-with-trial.html:52 templates/premium.html.py:52
+msgid "С VIP статусом вы получите:"
+msgstr "With VIP you will get:"
+
+#: templates/premium-plan-fortumo.html:56
+#: templates/premium-plan-with-trial.html:55 templates/premium.html.py:55
+msgid "✅ Доступ к разделу \"Вы понравились\""
+msgstr "✅ See who likes you"
+
+#: templates/premium-plan-fortumo.html:57
+#: templates/premium-plan-with-trial.html:56 templates/premium.html.py:56
+msgid "✅ Безлимитный просмотр кандидатур"
+msgstr "✅ Unlimited access to all profiles"
+
+#: templates/premium-plan-fortumo.html:58
+#: templates/premium-plan-with-trial.html:57 templates/premium.html.py:57
+msgid "✅ Доступ к фильтрам раздела “Stories”"
+msgstr "✅ Access to “Stories” filters"
+
+#: templates/premium-plan-fortumo.html:59
+#: templates/premium-plan-with-trial.html:58 templates/premium.html.py:58
+msgid "✅ Больше взаимных симпатий"
+msgstr "✅ Get matches faster"
+
+#: templates/premium-plan-fortumo.html:60
+msgid "✅ + 1,000 монет"
+msgstr "✅ + 1,000 coins"
+
+#: templates/premium-plan-fortumo.html:61
+#: templates/premium-plan-with-trial.html:60 templates/premium.html.py:60
+msgid "✅ Персональная тех. поддержка"
+msgstr "✅ Personal support"
+
+#: templates/premium-plan-fortumo.html:62
+#: templates/premium-plan-with-trial.html:61 templates/premium.html.py:61
+msgid "✅ Без рекламы"
+msgstr "✅ No ads"
+
+#: templates/premium-plan-fortumo.html:69
+#: templates/premium-plan-with-trial.html:68 templates/premium.html.py:65
+msgid "👉 ПОЛУЧИТЬ VIP 👈"
+msgstr "👉 GET VIP 👈"
+
+#: templates/premium-plan-with-trial.html:45
+msgid "VIP на 3 дня"
+msgstr ""
+
+#: templates/premium-plan-with-trial.html:48
+#, python-format
+msgid "100%% Бесплатно!"
+msgstr ""
+
+#: templates/premium-plan-with-trial.html:59 templates/premium.html.py:59
+msgid "✅ + 1,000 монет каждый месяц"
+msgstr "✅ + 1,000 coins each month"
+
+#: templates/premium-plan.html:38
+msgid "VIP статус"
+msgstr "VIP"
+
+#: templates/premium-plan.html:48 templates/premium-plan.html.py:68
+#: templates/premium-plan.html:88
+msgid "мес."
+msgstr "month"
+
+#: templates/premium-plan.html:55
+msgid "6 месяцев"
+msgstr "6 months"
+
+#: templates/premium-plan.html:58
+msgid "Лучшая цена"
+msgstr "Best price"
+
+#: templates/premium-plan.html:61 templates/premium-plan.html.py:81
+#: templates/premium-plan.html:101
+msgid "Общая сумма"
+msgstr "Total"
+
+#: templates/premium-plan.html:75
+msgid "3 месяца"
+msgstr "3 months"
+
+#: templates/premium-plan.html:95
+msgid "1 месяц"
+msgstr "1 month"
+
+#: templates/premium-plan.html:112 templates/premium-plan.html.py:118
+msgid "👉 ДАЛЕЕ 👈"
+msgstr "👉 NEXT 👈"
+
+#: templates/translates.html:3
 msgid "👑 VIP статус"
 msgstr "👑 VIP"
 
-#: .\templates\translates.html:5
+#: templates/translates.html:5
 msgid ""
 "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
 "сделайте селфи прямо сейчас!\n"
@@ -270,133 +448,43 @@ msgstr ""
 "\n"
 "👇 Press sketch 📎 and select photo"
 
-#: .\templates\translates.html:9
+#: templates/translates.html:9
 msgid "Напишите взаимной симпатии!"
 msgstr "Start chatting right now!"
 
-#: .\templates\translates.html:11
+#: templates/translates.html:11
 msgid "👣 Перейти в раздел"
 msgstr "👣 See who likes you"
 
-#: .\templates\translates.html:13
+#: templates/translates.html:13
 #, python-brace-format
 msgid ""
 "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 "начните общение прямо сейчас!"
 msgstr ""
-"🎉 {name} liked you. Open the “Likes you” section and start chatting right now!"
+"🎉 {name} liked you. Open the “Likes you” section and start chatting right "
+"now!"
 
-#: .\templates\translates.html:15
+#: templates/translates.html:15
 msgid ""
 "🎁 Подарок от Flirtu! Мы активировал вам VIP доступ бесплатно на 3 месяца!"
 msgstr ""
 "🎁 You've received gift from Flirtu. Free VIP access was activated for 3 "
 "months!"
 
-#: .\templates\translates.html:17
+#: templates/translates.html:17
 msgid "💌 У вас есть непрочитанные сообщения!"
 msgstr "💌 You have unread messages!"
 
-#~ msgid ""
-#~ "Have a question, an idea or just want to chat? <br> Find our contact "
-#~ "details below"
-#~ msgstr ""
-#~ "Have a question, an idea or just want to chat? <br> Find our contact "
-#~ "details below"
+#: templates/unitpay-paying-form.html:33
+msgid "Сейчас вы будете направлены на страницу оплаты."
+msgstr "Now you will be redirected to the payment process."
 
-#~ msgid "Your name"
-#~ msgstr "Your name"
-
-#~ msgid "Your Email"
-#~ msgstr "Your Email"
-
-#~ msgid "Message"
-#~ msgstr "Message"
-
-#~ msgid "SEND"
+#~ msgid "Отправить"
 #~ msgstr "SEND"
-
-#, python-format
-#~ msgid "Вы общаетесь как %(name)s"
-#~ msgstr "You are logged in as %(name)s"
 
 #~ msgid "Спонсоры"
 #~ msgstr "Sponsors"
-
-#~ msgid "Вы отменили процесс оплаты."
-#~ msgstr "Payment was canceled."
-
-#~ msgid "Пожалуйста, вернитесь в приложение Telegram."
-#~ msgstr "Please return to the Flirtu."
-
-#~ msgid "🥳 Спасибо за покупку! 🎉"
-#~ msgstr "🥳 Congratulations! 🎉"
-
-#~ msgid "Поздравляем, ваша покупка успешно совершена."
-#~ msgstr "Your payment was processed successfully. 🎉"
-
-#~ msgid "Уникальное предложение!"
-#~ msgstr "Limited sale!"
-
-#~ msgid "Активируйте VIP и Экономьте Деньги"
-#~ msgstr "Save you money while activating VIP"
-
-#~ msgid "С VIP статусом вы получите:"
-#~ msgstr "With VIP you will get:"
-
-#~ msgid "✅ Доступ к разделу \"Вы понравились\""
-#~ msgstr "✅ See who likes you"
-
-#~ msgid "✅ Безлимитный просмотр кандидатур"
-#~ msgstr "✅ Unlimited access to all profiles"
-
-#~ msgid "✅ Доступ к фильтрам раздела “Stories”"
-#~ msgstr "✅ Access to “Stories” filters"
-
-#~ msgid "✅ Больше взаимных симпатий"
-#~ msgstr "✅ Get matches faster"
-
-#~ msgid "✅ + 1,000 монет"
-#~ msgstr "✅ + 1,000 coins"
-
-#~ msgid "✅ Персональная тех. поддержка"
-#~ msgstr "✅ Personal support"
-
-#~ msgid "✅ Без рекламы"
-#~ msgstr "✅ No ads"
-
-#~ msgid "👉 ПОЛУЧИТЬ VIP 👈"
-#~ msgstr "👉 GET VIP 👈"
-
-#~ msgid "✅ + 1,000 монет каждый месяц"
-#~ msgstr "✅ + 1,000 coins each month"
-
-#~ msgid "VIP статус"
-#~ msgstr "VIP"
-
-#~ msgid "мес."
-#~ msgstr "month"
-
-#~ msgid "6 месяцев"
-#~ msgstr "6 months"
-
-#~ msgid "Лучшая цена"
-#~ msgstr "Best price"
-
-#~ msgid "Общая сумма"
-#~ msgstr "Total"
-
-#~ msgid "3 месяца"
-#~ msgstr "3 months"
-
-#~ msgid "1 месяц"
-#~ msgstr "1 month"
-
-#~ msgid "👉 ДАЛЕЕ 👈"
-#~ msgstr "👉 NEXT 👈"
-
-#~ msgid "Сейчас вы будете направлены на страницу оплаты."
-#~ msgstr "Now you will be redirected to the payment process."
 
 #~ msgid "Выбирайте.<br>Общайтесь.<br>Встречайтесь."
 #~ msgstr "Choose.<br>Communicate.<br>Meet."
@@ -549,8 +637,8 @@ msgstr "💌 You have unread messages!"
 #~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 #~| "начните общение прямо сейчас!"
 #~ msgid ""
-#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо сейчас. "
-#~ "Откройте раздел “Вы понравились”"
+#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо "
+#~ "сейчас. Откройте раздел “Вы понравились”"
 #~ msgstr ""
 #~ "🎉 {name} liked you. Open the “Likes you” section and start chatting right "
 #~ "now!"
