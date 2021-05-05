@@ -15,16 +15,16 @@
 
           <div class="header__menu">
 <ul>
-  <li><a href="{% url "about_us" %}" target="_blank">{% trans 'О нас' %}</a></li>
-  <li> <a href="{% url "contact_us" %}" target="_blank">{% trans 'Связь с нами' %}</a></li>
-  <li class="sub-menu-link"> <span>{% trans 'Поддержка' %}<img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/down-black.svg' %}" alt=""></span>
+  <li><a href="{% url "about_us" %}" target="_blank">{% trans "О нас" %}</a></li>
+  <li> <a href="{% url "contact_us" %}" target="_blank">{% trans "Связь с нами" %}</a></li>
+  <li class="sub-menu-link"> <span> {% trans "Помощь" %}<img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/down-black.svg' %}" alt=""></span>
 
     <div class="sub-menu-content">
 
       <a href="{% url 'faq' %}" target="_blank">{% trans 'Вопросы о Flirtu' %}</a>
 
       <a href="https://t.me/flirtu_support" target="_blank">
-        {% trans 'Помощь' %}
+        {% trans 'Помощь пользователю' %}
     </a>
 
     </div>
@@ -32,9 +32,7 @@
 </ul>
           </div>
           <div class="button button--sign-up">
-            <a href="">
-              {% trans 'Регистрация' %}
-            </a>
+            <a href="{% url 'launch_bot' %}{% if query_string %}?{{ query_string }}{% endif %}">{% trans "Регистрация" %}</a>
           </div>
           {% include "lang-switcher.html" %}
 

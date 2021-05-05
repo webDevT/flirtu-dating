@@ -9,7 +9,7 @@
     <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}" as="style" />
     <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}" as="style" />
     <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/style.min.css' %}">
+    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}">
     <link rel="shortcut icon" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/fav.ico' %}" type="image/x-icon">
         <!-- Facebook Pixel Code -->
     <script>
@@ -47,7 +47,7 @@
 </head>
 <body>
 <!-- ---------------start header------------- -->
-{% include "header.html" %}    
+{% include "header.html" %}
 <!-- end header -->
 
 <header class="header">
@@ -63,12 +63,7 @@
 и при взаимной симпатии - общайтесь <br>
 напрямую прямо в Telegram.{% endblocktrans %}</h1>
     <div class="button">
-        {% if deeplink_param %}
-        <a href="https://t.me/Flirtu_bot?start=system_{{ deeplink_param }}">{% trans 'Начать знакомиться в Telegram' %}</a>
-        {% else %}
-        <a href="https://t.me/Flirtu_bot?start={% if 'start' in request.GET %}{{ request.GET.start }}{% else %}website{% endif %}">{% trans 'Начать знакомиться в Telegram' %}</a>
-        {% endif %}
-
+        <a href="{% url 'launch_bot' %}{% if query_string %}?{{ query_string }}{% endif %}">{% trans 'Начать знакомиться в Telegram' %}</a>
     </div>
     <div class="header__text">
             {% trans '🔐 100% Бесплатно и Анонимно' %}
@@ -148,9 +143,10 @@
 <!-- ---------------end content------------- -->
 
 <!-- ---------------start footer------------- -->
-    {% include "footer.html" %} 
+    {% include "footer.html" %}
 <!-- ---------------end footer------------- -->
 
+{% if not prevent_cookie_policy_to_be_shown %}
 <!-- start cookis modal -->
 <div class="cookis-modal">
     <div class="cookis__content">
@@ -168,11 +164,11 @@
 
            <div class="cookis__right">
               <div class="accept__cookis">
-                 {% trans 'Принять все файлы cookie'  %}
+                 {% trans 'Принять все файлы cookies'  %}
               </div>
 
               <div class="cookis__setting">
-                  {% trans 'Настройки Cookie'  %}
+                  {% trans 'Настройки Cookies'  %}
               </div>
            </div>
 
@@ -180,7 +176,7 @@
 
               <div class="cookis__setting-header">
                   <div class="cookis__setting-header-title">
-                      {% trans 'Настройки Cookie' %}
+                      {% trans 'Настройки Cookies' %}
                   </div>
 
                   <div class="cookis__setting-close">
@@ -245,7 +241,7 @@
     </div>
 </div>
 <!-- coocis cookis modal -->
-
+{% endif %}
 
 
 </body>
