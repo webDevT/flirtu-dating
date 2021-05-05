@@ -1,0 +1,1299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-12 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: test-telegram.py:319
+msgid "👉 ГОТОВО 👈"
+msgstr "👉 HECHO 👈"
+
+#: test-telegram.py:593 test-telegram.py:695 test-telegram.py:706
+#: test-telegram.py:734 test-telegram.py:774 test-telegram.py:791
+#: test-telegram.py:796 test-telegram.py:803 test-telegram.py:986
+#: test-telegram.py:988 test-telegram.py:1012 test-telegram.py:1016
+#: test-telegram.py:1021 test-telegram.py:1121 test-telegram.py:1128
+#: test-telegram.py:1147 test-telegram.py:1157 test-telegram.py:1342
+#: test-telegram.py:1500 test-telegram.py:1534 test-telegram.py:1538
+#: test-telegram.py:1559 test-telegram.py:1566 test-telegram.py:1586
+#: test-telegram.py:1647 test-telegram.py:1658 test-telegram.py:1681
+#: test-telegram.py:1688 test-telegram.py:1715 test-telegram.py:1840
+#: test-telegram.py:2053 test-telegram.py:2095 test-telegram.py:2245
+#: test-telegram.py:2273 test-telegram.py:2402 test-telegram.py:2406
+#: test-telegram.py:2682 test-telegram.py:2701 test-telegram.py:2889
+msgid "Повторите попытку."
+msgstr "Vuelve a intentarlo."
+
+#: test-telegram.py:708 test-telegram.py:1132 test-telegram.py:2405
+#: test-telegram.py:3601
+msgid "⬅ Назад"
+msgstr "⬅ Atrás"
+
+#: test-telegram.py:723
+msgid ""
+"<b>👆 Посмотрите короткое видео 👆</b>\n"
+"\n"
+"👇 <u>После просмотра видео</u>, выберите язык: RUS, ENG, ITA или UZB"
+msgstr ""
+
+#: test-telegram.py:777
+msgid "⏩ СТАРТ ⏩"
+msgstr "⏩ INICIO ⏩"
+
+#: test-telegram.py:794 test-telegram.py:1562 test-telegram.py:1568
+#: test-telegram.py:3894
+msgid "🎩 Мужчина"
+msgstr "🎩 Hombre"
+
+#: test-telegram.py:794 test-telegram.py:1562 test-telegram.py:1568
+#: test-telegram.py:3894
+msgid "👠 Женщина"
+msgstr "👠 Mujer"
+
+#: test-telegram.py:808 test-telegram.py:892 test-telegram.py:1357
+#: test-telegram.py:1540 test-telegram.py:1590 test-telegram.py:1684
+#: test-telegram.py:1718 test-telegram.py:1752 test-telegram.py:1845
+#: test-telegram.py:1860 test-telegram.py:1960 test-telegram.py:2056
+#: test-telegram.py:2098 test-telegram.py:3935 test-telegram.py:4529
+#: test-telegram.py:4880
+msgid "{emoji_back} Назад"
+msgstr "{emoji_back} Atrás"
+
+#: test-telegram.py:817 test-telegram.py:1854 test-telegram.py:2978
+#: test-telegram.py:4044
+msgid ""
+"<b>Укажите ваш город</b>\n"
+"👇 Напишите название города\n"
+"<i>Например: Москва</i>"
+msgstr ""
+"<b>Ingresa tu ciudad</b>\n"
+"👇 Escriba el nombre de la ciudad\n"
+"<i>Por ejemplo: México</i>"
+
+#: test-telegram.py:848 test-telegram.py:852 test-telegram.py:857
+#: test-telegram.py:1917 test-telegram.py:1923 test-telegram.py:2754
+msgid "Нажмите соответствующую кнопку на клавиатуре"
+msgstr "Presiona el botón correspondiente del teclado"
+
+#: test-telegram.py:899 test-telegram.py:1967 test-telegram.py:2796
+msgid "Пусто"
+msgstr "Nada"
+
+#: test-telegram.py:903 test-telegram.py:1970 test-telegram.py:2799
+msgid ""
+"<b>Выберите ваш город из списка:</b>\n"
+"\n"
+"{variants}\n"
+"\n"
+"👇🏻👇🏻👇🏻<b>Нажмите на кнопку с цифрой</b>"
+msgstr ""
+"<b>Selecciona tu ciudad de la lista:</b>\n"
+"\n"
+"{variants}\n"
+"\n"
+"👇🏻👇🏻👇🏻<b>Presiona el botón de número</b>"
+
+#: test-telegram.py:934
+msgid ""
+"\n"
+"Я ничего не смог найти по указанному запросу."
+msgstr ""
+"\n"
+"Nada para mostrar."
+
+#: test-telegram.py:943 test-telegram.py:1994 test-telegram.py:2747
+msgid "Укажите корректный город"
+msgstr "Elige la ciudad correcta"
+
+#: test-telegram.py:1028
+msgid "Введите ваш реальный возраст числом."
+msgstr "¿Cuál es tu verdadera edad?"
+
+#: test-telegram.py:1035 test-telegram.py:1620
+msgid "Наш сервис рассчитан только на лиц старше 18-ти лет!"
+msgstr "¡Lo sentimos, nuestro servicio está diseñado solo para personas mayores de 18 años!"
+
+#: test-telegram.py:1053
+msgid "Пожалуйста загрузите фото"
+msgstr "Por favor, sube una foto"
+
+#: test-telegram.py:1060 test-telegram.py:1774 test-telegram.py:2586
+#: test-telegram.py:5411
+msgid "⏱ Пожалуйста подождите, ваша фотография проверяется ..."
+msgstr "⏱ Por favor, espera un momento. Tu foto está siendo verificada ahora mismo... "
+
+#: test-telegram.py:1078 test-telegram.py:1799 test-telegram.py:5447
+msgid "✅ Поздравляем! Ваша фотография успешно прошла проверку."
+msgstr "✅ ¡Felicitaciones! Tu foto ha pasado la verificación."
+
+#: test-telegram.py:1085
+msgid "⏳ Пожалуйста, подождите. Мы подбираем кандидатуры для вашей оценки."
+msgstr "⏳ Por favor espera. Estamos seleccionando candidatos(as) para ti."
+
+#: test-telegram.py:1103 test-telegram.py:1822
+msgid "❌ Загруженная фотография отклонена по причинам: {reason}. Пожалуйста загрузите другое фото или сделайте фото прямо сейчас!"
+msgstr "❌ Tu foto ha sido rechazada. Motivo: {reason}. ¡Por favor sube una nueva foto de perfil o tómate una selfie ahora mismo!"
+
+#: test-telegram.py:1134 translates.py:32
+msgid "👉 Понятно!"
+msgstr "👉 Claro!"
+
+#: test-telegram.py:1138 test-telegram.py:2405 test-telegram.py:3609
+msgid "🎁 Сделать подарок"
+msgstr "🎁 Enviar regalo"
+
+#: test-telegram.py:1146
+msgid "✳➡ ДА! ⬅✳"
+msgstr "✳➡ ¡SÍ! ⬅✳"
+
+#: test-telegram.py:1165 test-telegram.py:1309 test-telegram.py:2248
+#: test-telegram.py:2276 test-telegram.py:2411 test-telegram.py:2418
+#: test-telegram.py:2426 test-telegram.py:2570
+msgid "⏩ Продолжить ⏩"
+msgstr "⏩ Continuar ⏩"
+
+#: test-telegram.py:1175 test-telegram.py:1382 test-telegram.py:1563
+#: test-telegram.py:1649 test-telegram.py:2302 test-telegram.py:2554
+#: test-telegram.py:2557 test-telegram.py:2564 test-telegram.py:2574
+#: test-telegram.py:2577 test-telegram.py:2792 test-telegram.py:4304
+msgid "⬅️ Назад"
+msgstr "⬅️ Atrás"
+
+#: test-telegram.py:1178 test-telegram.py:2284
+msgid "ℹ"
+msgstr ""
+
+#: test-telegram.py:1179 test-telegram.py:4065
+msgid ""
+"<b>Зачем дарить подарки?</b>\n"
+"\n"
+"Подарки это отличная возможность выделиться из толпы!\n"
+"\n"
+"⭐ Ваша симпатия гарантированно(!) увидит подарок и сможет вас оценить вне очереди!\n"
+"\n"
+"Более того .... если вам поставили  &gt;&gt;❌&lt;&lt;, то после получения подарка - симпатия сможет изменить своё решение 😍\n"
+"\n"
+"👇 Нажмите ПРОДОЛЖИТЬ"
+msgstr ""
+"<b>¿Para qué sirven los regalos?</b>\n"
+"\n"
+"¿El regalo es una gran posibilidad de destacar entre la multitud?!\n"
+"\n"
+"⭐ ¡La persona que te gusta verá tu regalo!\n"
+"\n"
+"Más aun.... Si ya tienes &gt;&gt;❌&lt;&lt;, entonces alguien puede cambiar su decisión 😍\n"
+"\n"
+"👇 Presiona CONTINAR"
+
+#: test-telegram.py:1183 test-telegram.py:2067 test-telegram.py:2120
+#: test-telegram.py:2288
+msgid ""
+"\n"
+"\n"
+"Есть вопросы? Смело пишите 👉 @flirtu_support"
+msgstr ""
+"\n"
+"\n"
+"¿Necesitas ayuda? Por favor contáctanos 👉 @flirtu_support"
+
+#: test-telegram.py:1253 test-telegram.py:6548 test-telegram.py:6788
+#: test-telegram.py:6863
+#, python-format
+msgid ""
+"⚠ <b>ПОКУПКА ОТКЛОНЕНА</b>\n"
+"\n"
+"Вам не хватает:\n"
+"<b>{coins} {pluralized_coins}</b>!\n"
+"\n"
+"%s"
+msgstr ""
+"⚠ <b>COMPRA EQUIVOCADA</b>\n"
+"\n"
+"Necesitas:\n"
+"<b>{coins} {pluralized_coins}</b>!\n"
+"\n"
+"%s"
+
+#: test-telegram.py:1257 test-telegram.py:4299 test-telegram.py:4317
+#: test-telegram.py:4322 test-telegram.py:4337 test-telegram.py:6552
+#: test-telegram.py:6792 test-telegram.py:6867
+msgid "монета,монеты,монет"
+msgstr "moneda, monedas, monedas"
+
+#: test-telegram.py:1291
+msgid "🎉 Пользователю {name} отправлен подарок \"{gift}\""
+msgstr "🎉 \"{gift}\" fue enviado al usuario {name}"
+
+#: test-telegram.py:1316
+msgid ""
+"ПОЗДРАВЛЯЕМ! 🎉🎉🎉\n"
+"Ваш подарок успешно доставлен 🎁"
+msgstr ""
+"¡FELICITACIONES! 🎉🎉🎉\n"
+"Su regalo fue entregado exitosamente 🎁"
+
+#: test-telegram.py:1346
+msgid "Имя"
+msgstr "Nombre"
+
+#: test-telegram.py:1347 test-telegram.py:1351 test-telegram.py:2822
+msgid "Пол"
+msgstr "Género"
+
+#: test-telegram.py:1348
+msgid "Язык интерф."
+msgstr "Idioma de la interfaz"
+
+#: test-telegram.py:1349
+msgid "Дата рождения"
+msgstr "Fecha de nacimiento"
+
+#: test-telegram.py:1350 test-telegram.py:2841
+msgid "Локация"
+msgstr "Lugar"
+
+#: test-telegram.py:1352 test-telegram.py:2832
+msgid "Возраст"
+msgstr "Edad"
+
+#: test-telegram.py:1353
+msgid "Фото"
+msgstr "Foto"
+
+#: test-telegram.py:1354
+msgid "О себе"
+msgstr "Acerca de"
+
+#: test-telegram.py:1364
+msgid "👤 Мой профиль"
+msgstr "👤 Mi perfil"
+
+#: test-telegram.py:1373
+msgid "🔍 Настройки поиска"
+msgstr "🔍 Configuración de búsqueda"
+
+#: test-telegram.py:1385
+msgid "🚀 Priority"
+msgstr "🚀 Prioridad"
+
+#: test-telegram.py:1393
+msgid "Активируйте priority прямо сейчас!"
+msgstr "¡Activar prioridad ahora mismo!"
+
+#: test-telegram.py:1396
+#, python-format
+msgid "Окончание через: %s"
+msgstr "Finalizar el: %s"
+
+# python-format
+#: test-telegram.py:1397 test-telegram.py:6531
+#, python-format
+msgid ""
+"⭐ Хотите выделиться из толпы? ⭐\n"
+"\n"
+"Благодаря Priority, наши алгоритмы будут показывать ваш профиль - самым первым в списке и тем самым вы наберёте больше - 💚\n"
+"\n"
+"🚀 3 дня Priority = 600 монет\n"
+"🚀 5 дней Priority = 900 монет\n"
+"🚀 10 дней Priority = 1500 монет\n"
+"\n"
+"%s"
+msgstr ""
+"⭐ ¿Quieres sobresalir de la multitud? ⭐\n"
+"\n"
+"Gracias a la Prioridad, nuestros algoritmos mostrarán tu perfil en el primer lugar y así conseguirás más - 💚\n"
+"\n"
+"🚀 3 días de Prioridad = 600 monedas\n"
+"🚀 5 días de Prioridad = 900 monedas\n"
+"🚀 10 días de Prioridad = 1500 monedas\n"
+"\n"
+"%s"
+
+#: test-telegram.py:1410
+msgid "3 дня"
+msgstr "3 días"
+
+#: test-telegram.py:1412
+msgid "5 дней"
+msgstr "5 días"
+
+#: test-telegram.py:1414
+msgid "10 дней"
+msgstr "10 días"
+
+#: test-telegram.py:1434
+msgid "👑 VIP статус"
+msgstr "👑 Status VIP"
+
+#: test-telegram.py:1441
+msgid ""
+"Ваш VIP статус не активирован.\n"
+"\n"
+"<b>С VIP статусом вы получите:</b>\n"
+"✅  Доступ к разделу \"Вы понравились\"\n"
+"✅  Безлимитный просмотр кандидатур\n"
+"✅  Доступ к фильтрам раздела “Stories”\n"
+"✅  Больше взаимных симпатий\n"
+"✅  1,000 монет каждый месяц\n"
+"✅  Персональная тех. поддержка\n"
+"✅  Без рекламы\n"
+"\n"
+"Появились вопросы? Напишите нам - @Flirtu_support"
+msgstr ""
+"Tu estatus VIP no está activado.\n"
+"\n"
+"<b>Como VIP obtendrás:</b>\n"
+"✅  Ver a quién le gustas\n"
+"✅  Acceso ilimitado a todos los perfiles\n"
+"✅  Acceso a los filtros de historias\n"
+"✅  Obtener coincidencias más rápido\n"
+"✅  +1.000 monedas cada mes\n"
+"✅  Soporte personalizado\n"
+"✅  Sin publicidad\n"
+"\n"
+"¿Necesitas ayuda? Contáctanos - @Flirtu_support"
+
+#: test-telegram.py:1452
+#, python-format
+msgid ""
+"<b>👑 Ваш VIP статус активирован до:</b>\n"
+"%s\n"
+"\n"
+"Появились вопросы? Напишите нам - @Flirtu_support"
+msgstr ""
+"<b>👑 Tu status de VIP estará activado hasta el:</b>\n"
+"%s\n"
+"\n"
+"¿Necesitas ayuda? Contáctanos - @Flirtu_support"
+
+#: test-telegram.py:1486
+msgid "Портал абонента"
+msgstr "Portal de suscriptores"
+
+#: test-telegram.py:1603
+msgid "Дата указана в неверном формате."
+msgstr "La fecha tiene un formato incorrecto."
+
+#: test-telegram.py:1613
+msgid "Введите правильную дату рождения."
+msgstr "¿Cuándo es tu cumpleaños?"
+
+#: test-telegram.py:1651 test-telegram.py:2677
+msgid "🎩 Мужчины"
+msgstr "🎩 Hombres"
+
+#: test-telegram.py:1651 test-telegram.py:2677
+msgid "👠 Женщины"
+msgstr "👠 Mujeres"
+
+#: test-telegram.py:1728
+msgid "Длина текста не должна быть более 150 символов. Сейчас {0}"
+msgstr "La longitud del texto no debe exceder los 150 caracteres. Ahora es {0}."
+
+#: test-telegram.py:1759 test-telegram.py:1767
+msgid "Необходимо загрузить изображение."
+msgstr "Subir imagen."
+
+#: test-telegram.py:2065
+msgid "Здесь находятся пользователи которых вы выбрали и которые ответили вам взаимностью! Со взаимными симпатиями вы сможете продолжить общение напрямую в Telegram."
+msgstr "Solo una vez que hayas coincidido con alguien, puedes comenzar a chatear con esa persona directamente en Telegram. ¡Envía un mensaje de Bitmoji o agrega un GIF para darle vida a tu primer mensaje!"
+
+#: test-telegram.py:2086
+msgid "Вы посмотрели все ваши совпадения!"
+msgstr "¡Acabas de mirar todas tus coincidencias!"
+
+#: test-telegram.py:2087
+msgid "Это было ваше самое \"свежее\" совпадение. Листайте предыдущие совпадения нажатием на кнопку ⏪"
+msgstr "Fue tu coincidencia más reciente. Presiona ⏪ y mira otras coincidencias."
+
+#: test-telegram.py:2118
+msgid "Используйте монеты для покупки подарков 🎁🛍️ и для активации дополнительных функций."
+msgstr "Usa monedas para comprar regalos 🎁🛍️ y para activar funciones adicionales."
+
+#: test-telegram.py:2153
+msgid "{count} {coins}"
+msgstr "{count} {coins}"
+
+#: test-telegram.py:2154 test-telegram.py:2159 test-telegram.py:2215
+#: test-telegram.py:6280 test-telegram.py:6458
+msgid "монеты,монет,монет"
+msgstr "moneda, monedas, monedas"
+
+#: test-telegram.py:2155
+msgid ""
+"{count} {coins} будут на вашем счету уже через 5 секунд после оплаты.\n"
+"\n"
+"🔒 100% безопасный платеж\n"
+"👤 Гарантия анонимности\n"
+"🛎️ Тех. поддержка: @Flirtu_support\n"
+"\n"
+msgstr ""
+"{count} {coins} estarán en su cuenta 5 segundos después del pago.\n"
+"\n"
+"🔒 100% pagos seguros\n"
+"👤 Anonimato garantizado\n"
+"🛎️ Soporte técnico: @Flirtu_support\n"
+"\n"
+
+#: test-telegram.py:2198
+msgid "Оплатить"
+msgstr "Pagar"
+
+#: test-telegram.py:2211
+msgid ""
+"{count} {coins} будут на вашем счету уже через 5 секунд после оплаты.\n"
+"\n"
+"🔒 100% безопасный платеж\n"
+"👤 Гарантия анонимности\n"
+"🛎️ Тех. поддержка: @Flirtu_support\n"
+"\n"
+"👇 Жмите на кнопку \"Pay\" прямо сейчас👇"
+msgstr ""
+"¡Buena elección!\n"
+"{count} {coins} estarán en su cuenta 5 segundos después del pago.\n"
+"\n"
+"🔒 100% Pago seguro\n"
+"👤 Anonimato garantizado\n"
+"🛎️ Soporte técnico: @Flirtu_support\n"
+"\n"
+"👇 Haz clic en el botón “Pagar” ahora mismo 👇"
+
+#: test-telegram.py:2231
+msgid "Монеты"
+msgstr "Monedas"
+
+#: test-telegram.py:2255
+msgid "💌 Написать симпатии"
+msgstr "💌 Escribir mensaje"
+
+#: test-telegram.py:2262
+msgid "Замечательно! {name} уже ждет когда вы напишете!"
+msgstr "¡Bien hecho! ¡{name} está esperando tu mensaje!"
+
+#: test-telegram.py:2287 test-telegram.py:4400
+msgid "В этом разделе находятся пользователи которым <u>вы уже понравились</u>, но которых вы еще не оценили."
+msgstr "Esta sección contiene usuarios a los que les has <u>gustado</u> pero que aún no han sido valorados por ti."
+
+#: test-telegram.py:2312 test-telegram.py:4601
+msgid "⏱ Активность: {activity}"
+msgstr "⏱ Actividad: {activity}"
+
+#: test-telegram.py:2334 test-telegram.py:4583
+msgid ""
+"\n"
+"\n"
+"🔐 Данный пользователь доступен только VIP!"
+msgstr ""
+"\n"
+"\n"
+"🔐 ¡Este usuario solo está disponible si eres VIP!"
+
+#: test-telegram.py:2334 test-telegram.py:4583 test-telegram.py:4607
+msgid "💘 Вы понравились пользователю!"
+msgstr "💘 ¡Le gustaste a un usuario!"
+
+#: test-telegram.py:2390
+msgid ""
+"Вы просмотрели всех пользователей которые вас оценили!\n"
+"\n"
+"<b>Как увеличить свои шансы?</b>\n"
+"👉 Напишите текст \"О себе\"\n"
+"👉 Загрузите ваше лучшее фото\n"
+"👉 Активируйте Priority"
+msgstr ""
+"¡Has revisado a todos los usuarios que te han calificado!\n"
+"\n"
+"<b>Aumenta tus posibilidades ahora:</b>\n"
+"👉 Escribe algo bueno sobre ti\n"
+"👉 Activa la función de prioridad\n"
+"👉 Sube una mejor selfie"
+
+#: test-telegram.py:2394
+msgid "Листайте нажатием на кнопку ⏪"
+msgstr "Desplácese presionando el botón ⏪"
+
+#: test-telegram.py:2423 test-telegram.py:2530
+msgid "➕"
+msgstr ""
+
+#: test-telegram.py:2430
+msgid "🚩"
+msgstr ""
+
+#: test-telegram.py:2442
+msgid "Спасибо за информацию. Мы отправим данный пост на повторную модерацию!"
+msgstr "¡Gracias por la información! ¡Enviaremos esta historia para que se vuelva a revisar!"
+
+#: test-telegram.py:2498
+msgid ""
+"<b>Фильтр отображения постов:</b>\n"
+"\n"
+"Страна: {country}\n"
+"Город: {city}\n"
+"Пол: {sex}\n"
+"Возраст: {age}\n"
+"Сортировка по дате: {sort_by_date}"
+msgstr ""
+"<b>Filtro de historias:</b>\n"
+"\n"
+"País: {country}\n"
+"Ciudad: {city}\n"
+"Género: {sex}\n"
+"Edad: {age}\n"
+"Ordenar por fecha: {sort_by_date}"
+
+#: test-telegram.py:2536
+msgid ""
+"⚠ Внимание! Запрещается публиковать эротический, нецензурный, оскорбительный и иной недопустимый контент.\n"
+"\n"
+"Даже не пытайтесь! Наш алгоритм автоматически не пропустит подобное содержание.\n"
+"\n"
+"За нарушение правил вас ожидает пожизненный бан!"
+msgstr ""
+"⚠ Внимание! Attention! It is strictly forbidden to publish erotic, obscene, offensive and other inappropriate content.\n"
+"\n"
+"Ni siquiera lo intentes. Nuestro algoritmo rechazará automáticamente estos contenidos.\n"
+"\n"
+"¡Por la violación de las normas, tenemos derecho a eliminar tu cuenta en Flirtu!"
+
+#: test-telegram.py:2548
+msgid ""
+"Добавьте фото или сделайте селфи!\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+"¡Agrega una foto o sácate una selfie!\n"
+"\n"
+"👇 Haz clic en el clip 📎 y selecciona una foto"
+
+#: test-telegram.py:2562 test-telegram.py:2568 test-telegram.py:2646
+#: test-telegram.py:2819 test-telegram.py:6761
+msgid "🔍 Фильтр"
+msgstr "🔍 Filtros"
+
+#: test-telegram.py:2599
+msgid "🎉 Поздравляем! Ваш пост успешно опубликован!"
+msgstr "🎉 ¡Felicitaciones! ¡Tu comentario fue publicado correctamente!"
+
+#: test-telegram.py:2635
+msgid "❌ Загруженная фотография отклонена. Пожалуйста загрузите другое фото или сделайте фото прямо сейчас!"
+msgstr "❌ Tu foto ha sido rechazada. ¡Por favor sube una nueva foto o tómate una selfie ahora mismo!"
+
+#: test-telegram.py:2640
+msgid "Сортировка по дате"
+msgstr "Ordenar por fecha"
+
+#: test-telegram.py:2657
+msgid ""
+"Фильтры доступны только для 👑 VIP пользователей.\n"
+"Получите 👑 VIP статус прямо сейчас👇"
+msgstr ""
+"Los filtros están disponibles sólo para los usuarios 👑 VIP.\n"
+"Obtén tu estatus 👑 VIP ahora mismo👇"
+
+#: test-telegram.py:2825 test-telegram.py:3962
+msgid ""
+"Кого вы ищите?\n"
+"👇 Нажмите на кнопку"
+msgstr ""
+"¿A quién estás buscando?\n"
+"👇 Presiona el botón"
+
+#: test-telegram.py:2837
+msgid "Укажите диапазон возраста (от и до, например: 18-35)"
+msgstr "Rango de edad (por ejemplo: 18-35)"
+
+#: test-telegram.py:2849
+msgid ""
+"<b>Укажите город</b>\n"
+"👇 Напишите название города\n"
+"<i>Например: Москва</i>"
+msgstr ""
+"<b>Ingresa tu ciudad</b>\n"
+"👇 Escribe el nombre de la ciudad\n"
+"<i>Por ejemplo: México</i>"
+
+#: test-telegram.py:3024
+msgid ""
+"{name}, {age}{about}\n"
+"<b>Оцените пользователя</b>\n"
+"❌ - \"Не нравится\"\n"
+"💚 - \"Мне нравится\"\n"
+"\n"
+"👇🏻 <b>Нажмите на кнопку</b>"
+msgstr ""
+"{name}, {age}{about}\n"
+"<b>Califica a este usuario</b>\n"
+"❌ - \"No me gusta\"\n"
+"💚 - \"Me gusta\"\n"
+"\n"
+"👇🏻 <b>Presiona el botón</b>"
+
+#: test-telegram.py:3083
+msgid ""
+"<b>Сколько вам лет?</b>\n"
+"👇 Введите число.\n"
+"Например - 25"
+msgstr ""
+"<b>¿Cuánto años tienes?</b>\n"
+"👇 Coloca un número.\n"
+"Por ejemplo - 25"
+
+#: test-telegram.py:3100 test-telegram.py:3929
+msgid "Как вас зовут? (Имя)"
+msgstr "¿Cómo te llamas?"
+
+#: test-telegram.py:3120
+msgid ""
+"{name}, {age}\n"
+"{about}"
+msgstr ""
+
+#: test-telegram.py:3228
+msgid ""
+"✅ Финальный шаг!\n"
+"\n"
+"<b>Добавьте свое фото или сделайте селфи!</b>\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+"✅ ¡Paso final!\n"
+"\n"
+"<b>¡Agrega tu foto o sácate una selfie!</b>\n"
+"\n"
+"👇 Presiona el clip📎 y selecciona una foto"
+
+#: test-telegram.py:3445
+msgid ""
+"🎉 Отличное начало!\n"
+"Вам понравился {username} - Если он ответит вам взаимностью, то будет совпадение!"
+msgstr ""
+"🎉 ¡Gran comienzo!\n"
+"Te gustó {username} - ¡Si le gustas a él, es una coincidencia!"
+
+#: test-telegram.py:3449
+msgid ""
+"🎉 Отличное начало!\n"
+"Вам понравилась {username} - Если она ответит вам взаимностью, то будет совпадение!"
+msgstr ""
+"🎉 ¡Gran comienzo!\n"
+"Te gustó {username} - ¡Si le gustas a ella, es una coincidencia!"
+
+#: test-telegram.py:3727 test-telegram.py:4010
+msgid ""
+"👇 Choose your language!\n"
+"👇 Elige tu idioma!\n"
+"👇 Выберите язык общения!\n"
+"👇 Scegli la tua lingua!\n"
+"\n"
+"ENG - English\n"
+"ESP - Español\n"
+"RUS - Русский\n"
+"ITA - Italiano\n"
+"UZB - O'zbek"
+msgstr ""
+
+#: test-telegram.py:3749
+msgid ""
+"<b>⚠ Запомните! Это важно! </b>\n"
+"Клавиши управления приложением открываются при нажатии на эту кнопку ☝"
+msgstr ""
+"<b>⚠ ¡Recuerda!</b>\n"
+"El teclado de control de la aplicación se abren cuando se pulsa este botón ☝"
+
+#: test-telegram.py:3768
+msgid ""
+"Укажите ваш пол\n"
+"👇 Нажмите на кнопку"
+msgstr ""
+"Su género\n"
+"👇 Presiona el botón"
+
+#: test-telegram.py:3792
+msgid "Получил"
+msgstr "Entendido"
+
+#: test-telegram.py:3792
+msgid "Получила"
+msgstr "Entendido"
+
+#: test-telegram.py:3794
+msgid "подарок,подарка,подарков"
+msgstr "regalo, regalo, regalo"
+
+#: test-telegram.py:3796
+#, python-format
+msgid ""
+"{name}, {age}\n"
+"⏱ Активность: {activity}{gifs_count_row}%s"
+msgstr ""
+"{name}, {age}\n"
+"⏱ Actividad: {activity}{gifs_count_row}%s"
+
+#: test-telegram.py:3820
+msgid ""
+"\n"
+"\n"
+"💡 Совет: Отправьте подарок и вы гарантированно выделитесь из толпы. Нажмите на кнопку: \"🎁 Отправить подарок\""
+msgstr ""
+"\n"
+"\n"
+"💡 Consejo: Envía un regalo y sobresale de la multitud. Pulsa el botón \"🎁 Enviar regalo\""
+
+#: test-telegram.py:3842
+msgid ""
+"🎉 ПОЗДРАВЛЯЕМ!\n"
+"Появилась НОВАЯ КАНДИДАТУРА для оценки! 💘💘💘\n"
+"Оцените новых пользователей прямо сейчас."
+msgstr ""
+"🎉 ¡FELICITACIONES!\n"
+"¡Hay un NUEVO PERFIL esperando tu revisión! 💘💘💘\n"
+"¡Evalúa a los nuevos usuarios ahora mismo!"
+
+#: test-telegram.py:3878
+msgid "Выберите раздел 👇 👇 👇"
+msgstr "Elige una sección 👇 👇 👇"
+
+#: test-telegram.py:3885
+msgid ""
+"{name}, {age}\n"
+"🌐 {country}, {city}\n"
+"Пол: {sex}{about}"
+msgstr ""
+"{name}, {age}\n"
+"🌐 {country}, {city}\n"
+"Género: {sex}{about}"
+
+#: test-telegram.py:3906
+msgid ""
+"<b>Ваши настройки поиска:</b>\n"
+"\n"
+"Локация: {country}, {city}\n"
+"Пол: {looking_sex}\n"
+"Возраст: от {from_age} до {to_age}"
+msgstr ""
+"<b>Configuración de búsqueda:</b>\n"
+"\n"
+"Lugar: {country}, {city}\n"
+"Género: {looking_sex}\n"
+"Edad: desde {from_age} hasta {to_age}"
+
+#: test-telegram.py:3910
+msgid "Женщины"
+msgstr "Mujeres"
+
+#: test-telegram.py:3910
+msgid "Мужчины"
+msgstr "Hombres"
+
+#: test-telegram.py:3950
+msgid ""
+"<b>Укажите ваш пол</b>\n"
+"👇 Нажмите на кнопку"
+msgstr ""
+"<b>Tu género</b>\n"
+"👇 Presiona el botón"
+
+#: test-telegram.py:3973
+msgid "Укажите диапазон возраста партнера (от и до, например: 18-35)"
+msgstr "Rango de edad (por ejemplo: 18-35)"
+
+#: test-telegram.py:3984
+msgid ""
+"<b>Напишите пару строк о себе</b>\n"
+"👉 Как вы проводите свободное время?\n"
+"👉 Какие отношения вы хотите?\n"
+"👉 Какая музыка нравится?\n"
+"\n"
+"Напишите текст \"О себе\" прямо сейчас 👇"
+msgstr ""
+"<b>Escribe unas líneas sobre ti mismo</b>\n"
+"👉 ¿Qué tipo de relación quieres?\n"
+"👉 ¿Qué haces en tu tiempo libre?\n"
+"👉 ¿Qué tipo de música te gusta?\n"
+"\n"
+"Descríbete a ti mismo 👇"
+
+#: test-telegram.py:3999
+msgid ""
+"Добавьте свое фото или сделайте селфи!\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+"¡Agrega tu foto o hazte un selfie!\n"
+"\n"
+"👇 Presiona el clip📎 y selecciona una foto"
+
+#: test-telegram.py:4025
+msgid ""
+"Когда Вы родились? {calendar_emoji}\n"
+"👇 <b>Введите дату рождения</b>\n"
+"\n"
+"- <b>ГГГГ-ММ-ДД</b> - например \"1970-10-20\"\n"
+"- <b>ДД.ММ.ГГГГ</b> - например \"20.10.1970\"\n"
+"- <b>ММ/ДД/ГГГГ</b> - например \"10/20/1970\""
+msgstr ""
+"¿Cuándo es tu cumpleaños? {calendar_emoji}\n"
+"Usa este formato:\n"
+" - <b>YYYY-MM-DD</b> - ejemplo \"1970-10-20\"\n"
+" - <b>DD.MM.YYYY</b> - ejemplo \"20.10.1970\"\n"
+" - <b>MM/DD/YYYY</b> - ejemplo \"10/20/1970\""
+
+#: test-telegram.py:4093 test-telegram.py:4099
+msgid "монету,монеты,монет"
+msgstr "monedas, monedas, monedas"
+
+#: test-telegram.py:4096
+#, python-format
+msgid ""
+"<b>Симпатия гарантированно увидит Ваш подарок и сможет Вас оценить вне очереди!</b>\n"
+"\n"
+"На вашем счету: {coins} {coins_word}\n"
+"%s\n"
+"\n"
+"<b>👇Выберите подарок👇</b>"
+msgstr ""
+"<b>¿Quieres destacar entre la multitud?</b>\n"
+"¡Dale un regalo a la persona que te gusta!\n"
+"\n"
+"Tienes {coins} {coins_word} en tu cuenta.\n"
+"%s\n"
+"\n"
+"<b>👇Elige un regalo👇</b>"
+
+#: test-telegram.py:4295
+msgid " ⭐"
+msgstr ""
+
+#: test-telegram.py:4295
+msgid " 💥"
+msgstr ""
+
+#: test-telegram.py:4315
+msgid "{cost} {currency} = <b>{count} {coins}</b>{label}"
+msgstr ""
+
+#: test-telegram.py:4320
+msgid "грн"
+msgstr "grivna"
+
+#: test-telegram.py:4320
+msgid "евро"
+msgstr "euro"
+
+#: test-telegram.py:4320
+msgid "руб"
+msgstr "rublo"
+
+#: test-telegram.py:4320
+msgid "сӯм"
+msgstr ""
+
+#: test-telegram.py:4331
+#, python-format
+msgid ""
+"%s\n"
+"\n"
+"👇Сколько монет вы хотите получить?"
+msgstr ""
+"%s\n"
+"\n"
+"👇¿Cuántas monedas deseas obtener?"
+
+#: test-telegram.py:4336
+#, python-format
+msgid ""
+"На вашем счету: {count} {coins}\n"
+"\n"
+"%s"
+msgstr ""
+"Hay <b>{count} {coins}</b> en tu cuenta.\n"
+"\n"
+"%s"
+
+#: test-telegram.py:4354
+msgid "Хотите сэкономить? <u>Активируйте VIP</u> прямо сейчас!"
+msgstr "¿Quieres ahorrar dinero? <u>¡Conviértete en miembro VIP</u> ahora mismo!"
+
+#: test-telegram.py:4495
+msgid ""
+"Пока нет (женщин / мужчин) которым вы понравились и которых вы еще не оценили в ответ.\n"
+"\n"
+"<b>Как увеличить свои шансы?</b>\n"
+"👉 Напишите текст \"О себе\"\n"
+"👉 Загрузите ваше лучшее фото\n"
+"👉 Активируйте Priority"
+msgstr ""
+"No hay usuarios a los que les hayas gustado y no los hayas valorado aún.\n"
+"\n"
+"<b>Aumenta tus posibilidades ahora mismo:</b>\n"
+"👉 Escribe algo bueno sobre ti\n"
+"👉 Activa la función de Prioridad\n"
+"👉 Sube un mejor selfie"
+
+#: test-telegram.py:4521
+msgid ""
+"\n"
+"Нажмите на 💚 и начните общение прямо сейчас!"
+msgstr ""
+"\n"
+"Haz clic en 💚 ¡Y empieza a chatear inmediatamente!"
+
+#: test-telegram.py:4687
+msgid ""
+"Здесь вы можете смотреть истории других пользователей и общаться с ними <u>анонимно</u>.\n"
+"\n"
+"Авторы историй не узнают, кто им пишет, если вы сами этого не захотите!\n"
+"\n"
+"Вы можете опубликовать свою “историю” и узнать, что о вас думают другие ..."
+msgstr ""
+"Mira historias, <u>chat anónimo</u> y conoce gente nueva en todo el mundo con total seguridad. \n"
+"\n"
+"¡Los autores de las historias no ven quién eres!\n"
+"\n"
+"¡Puedes añadir fácilmente tu propia historia al feed y encontrar nuevos amigos!"
+
+#: test-telegram.py:4748
+msgid "Женщина"
+msgstr "Mujer"
+
+#: test-telegram.py:4748
+msgid "Мужчина"
+msgstr "Hombre"
+
+#: test-telegram.py:4771 test-telegram.py:4907 test-telegram.py:6053
+#: test-telegram.py:6143
+msgid "👇 Начните общение"
+msgstr "👇 Empezar a chatear con el usuario"
+
+#: test-telegram.py:4776
+msgid "💬 Отправить анонимное сообщение"
+msgstr "💬 Enviar mensaje anónimo"
+
+#: test-telegram.py:4786
+msgid ""
+"Пока нет историй к просмотру.\n"
+"🥇 Будьте первым, добавьте свою историю прямо сейчас!"
+msgstr ""
+"No hay historias para ver.\n"
+"🥇 Sé el primero: ¡añade tu historia ahora mismo!"
+
+#: test-telegram.py:4846
+msgid ""
+"Когда Вам тоже поставят 💚 то будет СОВПАДЕНИЕ! Вы сможете продолжить общение напрямую в Telegram!\n"
+"\n"
+"💚 + 💚 = 😍\n"
+"\n"
+"Жмите на кнопку ✳️ СТАРТ ✳️ и находите взаимные симпатии!"
+msgstr ""
+"¡Cuando a este usuario le gustes 💚, será una COINCIDENCIA y podrán hablar DIRECTAMENTE en Telegram!\n"
+"\n"
+"💚 + 💚 = 😍\n"
+"\n"
+"¡Pulsa el botón ✳ INICIAR ✳ y encuentra a tus afines!"
+
+#: test-telegram.py:4875
+msgid "---"
+msgstr ""
+
+#: test-telegram.py:4894
+#, python-format
+msgid ""
+"{name}, {age}\n"
+"{activity_row}%s"
+msgstr ""
+"{name}, {age}\n"
+"{activity_row}%s"
+
+#: test-telegram.py:4910 test-telegram.py:5031 test-telegram.py:6056
+#: test-telegram.py:6146
+msgid "💌 Открыть чат 💬"
+msgstr "💌 Abrir chat 💬"
+
+#: test-telegram.py:5011
+msgid "<b>Чаты:</b>\n"
+msgstr "<b>Chats:</b>\n"
+
+#: test-telegram.py:5018
+msgid "<b>Анонимные чаты:</b>\n"
+msgstr "<b>Chats anónimos:</b>\n"
+
+#: test-telegram.py:5022
+#, python-format
+msgid "%s<b>👇 Откройте раздел сообщений</b>"
+msgstr "%s<b>👇 Abrir mensajes</b>"
+
+#: test-telegram.py:5037
+msgid "💌 Открыть анонимный чат 💬"
+msgstr "💌 Abrir chat anónimo 💬"
+
+#: test-telegram.py:5317
+msgid "<{0}> Ваш аккаунт заблокирован!"
+msgstr "<{0}>¡Tu cuenta ha sido bloqueada!"
+
+#: test-telegram.py:5351
+msgid "✳ СТАРТ ✳"
+msgstr "✳ INICIAR ✳"
+
+#: test-telegram.py:5353
+msgid "Совпадения"
+msgstr "Coincidencias"
+
+#: test-telegram.py:5355
+msgid "💗 Вы понравились"
+msgstr "💗 Le gustas"
+
+#: test-telegram.py:5389 test-telegram.py:5454
+msgid ""
+"Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или сделайте селфи прямо сейчас!\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+"Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o tómate una selfie ahora mismo!\n"
+"\n"
+"👇 Presiona el clip📎 y selecciona una foto"
+
+#: test-telegram.py:5492
+msgid "😕 Упс ... с работой приложения что-то пошло не так... Пожалуйста, напишите нам в техподдержку ⚒ @Flirtu_support и мы оперативно отреагируем и всё починим 🤓"
+msgstr "😕 Ups ... Algo salió mal con la aplicación ... Por favor, comunícate con nuestro soporte @Flirtu_support y solucionaremos el problema 🤓 "
+
+#: test-telegram.py:5553
+msgid "Время действия истекло"
+msgstr "El tiempo ha expirado"
+
+#: test-telegram.py:5699
+msgid "Здесь вы можете посмотреть 🎯 новые кандидатуры, 💘взаимные симпатии  или изменить настройки своего 📝 профиля"
+msgstr "Aquí puedes ver 🎯 nuevos perfiles, 💘 tus coincidencias o modificar tu 📝 perfil"
+
+#: test-telegram.py:5870
+msgid "К сожалению, сейчас по вашим настройкам поиска нет подходящих кандидатур. Пожалуйста, поменяйте диапазон возраста или регион - и попробуйте заново."
+msgstr "Desafortunadamente, actualmente no hay candidatos(as) adecuados para tu configuración de búsqueda. Por favor cambia el rango de edad o la región y vuelve a intentarlo."
+
+#: test-telegram.py:5881
+msgid ""
+"Достигнут лимит на просмотр новых профилей. Вы сможете продолжить через: ⏱{timer}\n"
+"\n"
+"Вашей оценки {wait_word} {girls} {girls_word}, {which_word} прямо сейчас просматривают другие мужчины.\n"
+"\n"
+"👉 Хотите обогнать конкурентов?\n"
+"👉 Не хотите ждать?"
+msgstr ""
+"Se ha alcanzado el límite de visualización de nuevos perfiles. Puedes continuar en: ⏱{timer}\n"
+"\n"
+"Otras {girls} {girls_word} {wait_word} esperan tu decisión, {which_word} y están siendo vistas por otros hombres.\n"
+"\n"
+"👉 ¿Quieres adelantarte a tus competidores?\n"
+"👉 ¿No quieres esperar?"
+
+#: test-telegram.py:5912
+msgid "👑 Активируйте VIP и получите безлимитный доступ ко всем женщинам!"
+msgstr "👑 Obtén acceso ilimitado a todas las chicas 💥"
+
+#: test-telegram.py:5934
+msgid "👑 Получить доступ ко всем женщинам 💥"
+msgstr "👑 Obtén acceso ilimitado a todas las chicas 💥"
+
+#: test-telegram.py:5951
+msgid ""
+"<b>Новые профили будут доступны через:</b>\n"
+"⏱{timer}\n"
+"\n"
+msgstr ""
+"<b>Nuevos perfiles estarán disponibles después en:</b>\n"
+"⏱{timer}\n"
+"\n"
+
+#: test-telegram.py:5953
+#, python-format
+msgid ""
+"Вы достигли лимита на просмотр новых профилей.\n"
+"\n"
+"%sМы сообщим, когда Вы сможете продолжить."
+msgstr ""
+"Has alcanzado el límite de visualización de perfiles.\n"
+"\n"
+"%sTe avisaremos cuando puedas continuar."
+
+#: test-telegram.py:6027 test-telegram.py:6117
+msgid "\"Вы мне нравитесь!!!\""
+msgstr "\"¡¡¡Me gustas!!!\""
+
+#: test-telegram.py:6031 test-telegram.py:6121
+msgid ""
+"💞 <b>ВЗАИМНАЯ СИМПАТИЯ</b> 💞\n"
+"{curved_lines}\n"
+"{row_1}\n"
+"{curved_lines}\n"
+"{row_3}"
+msgstr ""
+"💞 <b>TIENES UNA COINCIDENCIA</b> 💞\n"
+"{curved_lines}\n"
+"{row_1}\n"
+"{curved_lines}\n"
+"{row_3}"
+
+#: test-telegram.py:6231
+msgid "ПОЗДРАВЛЯЕМ! Вы получили  “{gift_name}“ от пользователя {name}.\n"
+msgstr "¡FELICITACIONES! Acabas de recibir un regalo “{gift_name}“ del usuario {name}.\n"
+
+#: test-telegram.py:6232
+msgid "Пожалуйста оцените данного пользователя {emoji_like}."
+msgstr "Por favor califica a este usuario ahora mismo {emoji_like}."
+
+#: test-telegram.py:6236
+msgid ""
+"ПОЗДРАВЛЯЕМ! Вы получили “{gift_name}“ от пользователя {name}.\n"
+"Но дело в том, что ранее вы уже ему поставили {emoji_dislike}\n"
+"Пожалуйста повторно оцените данного пользователя {emoji_like}."
+msgstr ""
+"¡FELICITACIONES! Acabas de recibir “{gift_name}“ como regalo del usuario  - {name}.\n"
+"Pero previamente calificaste al usuario con - {emoji_dislike}\n"
+"Por favor, califica a este usuario de nuevo con {emoji_like}."
+
+#: test-telegram.py:6278 test-telegram.py:6455
+msgid ""
+"🎉 СПАСИБО ЗА ПОКУПКУ 🎉 \n"
+"{count} {coins} зачислено на ваш счёт!"
+msgstr ""
+"🎉 GRACIAS POR EL PAGO 🎉 \n"
+"¡{count} {coins} agregadas a su cuenta!"
+
+#: test-telegram.py:6598
+#, python-format
+msgid ""
+"✅  PRIORITY АКТИВИРОВАН\n"
+"Окончание через: %s"
+msgstr ""
+"✅  PRIORIDAD ACTIVADA\n"
+"Hasta el: %s"
+
+#: test-telegram.py:6672
+msgid "👑 Получить VIP 💥"
+msgstr "👑 Vuélvete VIP 💥"
+
+#: test-telegram.py:6692
+#, python-format
+msgid "👑 Ваш VIP статус активирован до %s"
+msgstr "👑 Tu rango de VIP está activado hasta el %s"
+
+#: test-telegram.py:6821 test-telegram.py:6887
+msgid "✅ Покупка успешно совершена!"
+msgstr "✅ ¡La compra se realizó correctamente!"
+
+#: test-telegram.py:6996
+msgid "{0} мин."
+msgstr "{0} min."
+
+#: test-telegram.py:6999
+msgid "{0} ч."
+msgstr "{0} h."
+
+#: test-telegram.py:7002 test-telegram.py:7006
+msgid "{0} {1}"
+msgstr ""
+
+#: test-telegram.py:7002
+msgid "день,дня,дней"
+msgstr "día, días, días"
+
+#: test-telegram.py:7006
+msgid "неделю,недели,недель"
+msgstr "semana, semanas, semanas"
+
+#: test-telegram.py:7061
+msgid "<b>Новое сообщение от {name}. Откройте раздел сообщений 💌</b>"
+msgstr "<b>Nuevo mensaje de {name}. Abrir la sección de mensajes 💌</b>"
+
+#: test-telegram.py:7132
+msgid "<b>Получено новое сообщение. Откройте раздел сообщений 💌</b>"
+msgstr "<b>Nuevo mensaje entrante. Abrir la sección de mensajes 💌</b>"
+
+#: test-telegram.py:7383
+msgid "{emoji} {name}"
+msgstr ""
+
+#: translates.py:5
+msgid "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо сейчас. Откройте раздел “Вы понравились”"
+msgstr "🎉 Le gustaste a {name}, {age}. Abre la sección \"Me gustas\" y echa un vistazo a la foto."
+
+#: translates.py:8
+msgid "Оцените пользователя - {name}, {age}! Возможно вы друг другу понравитесь."
+msgstr "Califica al usuario: {name}, {age} !Quizás se guste uno al otro."
+
+#: translates.py:10
+msgid "Новое аудио сообщение от Маши Гагариной"
+msgstr "Nuevo mensaje de audio de Mary"
+
+#: translates.py:12
+msgid "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и начните общение прямо сейчас!"
+msgstr "🎉 Le gustaste al usuario {name}. Abre la sección \"Le gustas\" y empieza a conversar ahora mismo!"
+
+#: translates.py:14
+msgid "Напишите взаимной симпатии!"
+msgstr "Empieza a chatear ahora!"
+
+#: translates.py:16
+msgid "(не указан)"
+msgstr "(no configurado)"
+
+#: translates.py:18
+msgid "включена"
+msgstr "activado"
+
+#: translates.py:20
+msgid "выключена"
+msgstr "desactivado"
+
+#: translates.py:22
+msgid "👣 Перейти в раздел"
+msgstr "👣 Mira a quién le gustas"
+
+#: translates.py:24
+msgid "женщина,женщины,женщин"
+msgstr "chicas, chicas, chicas"
+
+#: translates.py:26
+msgid "ожидает,ожидают,ожидают"
+msgstr "están esperando, están esperando, están esperando"
+
+#: translates.py:28
+msgid "которую,которых,которых"
+msgstr "cuál es, cuáles son, cuáles son"
+
+#: translates.py:30
+msgid "⏩ Далее ⏩"
+msgstr "⏩ Continuar ⏩"
+
+#~ msgid ""
+#~ "💘 Вы понравились пользователю {name}!\n"
+#~ "\n"
+#~ "Xотите начать общение с ней прямо сеи́час? Активируйте VIP и получите безлимитный доступ ко всем женщинам в разделе \"Вы понравились\""
+#~ msgstr ""
+#~ "💘 ¡A {name} le gustaste!\n"
+#~ "\n"
+#~ "¿Quieres chatear con ella ahora mismo? Activa tu VIP y obtén acceso ilimitado a todas las personas de la sección \"Me gustas\""
+
+#~ msgid ""
+#~ "💘 Вы понравились пользователю {name}!\n"
+#~ "\n"
+#~ "Xотите начать общение с ним прямо сеи́час? Активируйте VIP и получите безлимитный доступ ко всем мужчинам в разделе \"Вы понравились\""
+#~ msgstr ""
+#~ "💘 ¡A {name} le gustaste!\n"
+#~ "\n"
+#~ "¿Quieres chatear con él ahora mismo? Activa tu VIP y obtén acceso ilimitado a todas las personas de la sección \"Me gustas\""
+
+#~ msgid "<b>Новое сообщение в разделе Stories. Откройте раздел анонимных сообщений 💌</b>"
+#~ msgstr "<b>Hay un nuevo mensaje en Historias. Abre la bandeja de entrada de los chats anónimos. 💌</b>"

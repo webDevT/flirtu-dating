@@ -1,0 +1,322 @@
+{% load i18n static thumbnail %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans 'Знакомства в Telegram' %}</title>
+    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}" as="style" />
+    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}" as="style" />
+    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.min.css' %}">
+    <link rel="shortcut icon" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/fav.ico' %}" type="image/x-icon">
+        <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '478292439333515');
+      fbq('track', 'Main PageView')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=478292439333515&ev=Main PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <link rel="preload" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img1.png' %}" as="image">
+
+
+    <!-- Global site tag (gtag.js) - Google Ads: 965766452 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-965766452"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-965766452');
+</script>
+<!-- Event snippet for Flirtu Page view conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-965766452/yn2FCNm07P0BELTawcwD'});
+</script>
+</head>
+<body>
+<!-- ---------------start header------------- -->
+{% include "header.html" %}    
+<!-- end header -->
+
+<header class="header">
+    <div class="slider">
+           <div class="items_slider">
+            </div>
+        </div>
+
+    <div class="header__title">
+        {% trans 'Знакомства внутри Telegram Messenger' %}
+    </div>
+    <h1>{% blocktrans %}Оценивайте фото людей поблизости от Вас <br>
+и при взаимной симпатии - общайтесь <br>
+напрямую прямо в Telegram.{% endblocktrans %}</h1>
+    <div class="button">
+        {% if deeplink_param %}
+        <a href="https://t.me/Flirtu_bot?start=system_{{ deeplink_param }}">{% trans 'Начать знакомиться в Telegram' %}</a>
+        {% else %}
+        <a href="https://t.me/Flirtu_bot?start={% if 'start' in request.GET %}{{ request.GET.start }}{% else %}website{% endif %}">{% trans 'Начать знакомиться в Telegram' %}</a>
+        {% endif %}
+
+    </div>
+    <div class="header__text">
+            {% trans '🔐 100% Бесплатно и Анонимно' %}
+        </div>
+    <picture>
+        <source srcset="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/mob.svg' %}" media="(max-width: 480px)">
+        <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/bg-h.png' %}" alt="" class="header__line">
+    </picture>
+</header>
+
+
+<!-- ---------------start content------------- -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 content__item-image-wrapper">
+                <div class="content__item content__item-image">
+                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img1.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 content__item-text-wrapper">
+                <div class="content__item content__item-text">
+                    <h2>{% trans 'Выбирайте' %}</h2>
+                    <div class="content__text">
+                        {% trans 'Просматривайте фотографии пользователей и отмечайте симпатии!' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 content__item-text-wrapper">
+                <div class="content__item content__item-text">
+                    <h2>{% trans 'Общайтесь' %}</h2>
+                    <div class="content__text">
+                        {% trans 'При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента можно переходить в приват!' %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 content__item-image-wrapper">
+                <div class="content__item content__item-image">
+                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/new-screen.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 content__item-image-wrapper">
+                <div class="content__item content__item-image">
+                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img3.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 content__item-text-wrapper">
+                <div class="content__item content__item-text">
+                    <h2>{% trans 'Новые Знакомства в Вашем Городе' %}</h2>
+                    <div class="content__text">
+                        {% trans 'Flirtu не показывает вашего точного местоположения, но помогает вам завести новые знакомства с людьми поблизости.' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 content__item-text-wrapper">
+                <div class="content__item content__item-text content-item-text--bottom">
+                    <h2 class="">{% trans 'Знакомства по Интересам' %}</h2>
+                    <div class="content__text">
+                        {% trans 'Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс познакомиться с кем-то, кто разделяет ваши интересы.' %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 content__item-image-wrapper">
+                <div class="content__item content__item-image">
+                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img4.png' %}" alt="" class="no-margin">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ---------------end content------------- -->
+
+<!-- ---------------start footer------------- -->
+    {% include "footer.html" %} 
+<!-- ---------------end footer------------- -->
+
+<!-- start cookis modal -->
+<div class="cookis-modal">
+    <div class="cookis__content">
+       <div class="cookis__container">
+
+           <div class="cookis__left">
+               <div class="cookis__text cookis__text--bold">
+                   We use cookies to improve the content <br> and offerings on our site.
+               </div>
+               <div class="cookis__text">
+                   Learn more about our cookie policy <a target="_blank" href="privacy.html">here</a>
+               </div>
+           </div>
+
+           <div class="cookis__right">
+              <div class="accept__cookis">
+                  Accept all cookies
+              </div>
+
+              <div class="cookis__setting">
+                  Cookie Settings
+              </div>
+           </div>
+
+           <div class="cookis__setting-content">
+
+              <div class="cookis__setting-header">
+                  <div class="cookis__setting-header-title">
+                      Cookie Settings
+                  </div>
+
+                  <div class="cookis__setting-close">
+                      <svg height="329pt" viewBox="0 0 329.26933 329" width="329pt" xmlns="http://www.w3.org/2000/svg"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>
+                  </div>
+              </div>
+
+              <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="1" class="checkbox" checked disabled="">
+                          <label for="1" class="checkbox-square"></label>
+                          <label for="1" class="checkbox-text">Necessary</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies are necessary for the website to function and can not be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, or filling in forms.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="2" class="checkbox" checked>
+                          <label for="2" class="checkbox-square"></label>
+                          <label for="2" class="checkbox-text">Preferences</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or third-party providers whose services we have added to our pages.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="3" class="checkbox" checked>
+                          <label for="3" class="checkbox-square"></label>
+                          <label for="3" class="checkbox-text">Statistics</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our site. They help us to understand how pages are used and how visitors move around the website.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="3" class="checkbox" checked>
+                          <label for="3" class="checkbox-square"></label>
+                          <label for="3" class="checkbox-text">Marketing</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies may be set by our advertising partners. They may use the cookies to build a profile of your interests and show relevant adverts on other sites.</p>
+              </div>
+
+              <div class="cookis__setting-button">
+                  Save
+              </div>
+
+           </div>
+       </div>
+    </div>
+</div>
+<!-- coocis cookis modal -->
+
+<!-- start cookis setting modal -->
+<div class="cookis-setting-modal">
+     <div class="cookis__setting-content">
+
+              <div class="cookis__setting-header">
+                  <div class="cookis__setting-header-title">
+                      Cookie Settings
+                  </div>
+
+                  <div class="cookis__setting-close">
+                      <svg height="329pt" viewBox="0 0 329.26933 329" width="329pt" xmlns="http://www.w3.org/2000/svg"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>
+                  </div>
+              </div>
+
+             <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="1" class="checkbox" checked disabled="">
+                          <label for="1" class="checkbox-square"></label>
+                          <label for="1" class="checkbox-text">Necessary</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies are necessary for the website to function and can not be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, or filling in forms.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="2" class="checkbox" checked>
+                          <label for="2" class="checkbox-square"></label>
+                          <label for="2" class="checkbox-text">Preferences</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or third-party providers whose services we have added to our pages.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="3" class="checkbox" checked>
+                          <label for="3" class="checkbox-square"></label>
+                          <label for="3" class="checkbox-text">Statistics</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our site. They help us to understand how pages are used and how visitors move around the website.</p>
+              </div>
+
+               <div class="cookis__setting-item">
+                  <div class="checkbox__row">
+                      <div class="checkbox__wrapper">
+                          <input type="checkbox" id="3" class="checkbox" checked>
+                          <label for="3" class="checkbox-square"></label>
+                          <label for="3" class="checkbox-text">Marketing</label>
+                      </div>
+                  </div>
+
+                  <p>These cookies may be set by our advertising partners. They may use the cookies to build a profile of your interests and show relevant adverts on other sites.</p>
+              </div>
+              <div class="cookis__setting-button">
+                  Save
+              </div>
+
+           </div>
+</div>
+<!-- end cookis setting modal -->
+
+
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/js/main.js' %}"></script>
+
+</html>

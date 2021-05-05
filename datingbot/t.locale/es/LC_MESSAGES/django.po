@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-05 09:57+0300\n"
+"PO-Revision-Date: 2021-05-05 10:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: .\templates\contact-us.html:8
+msgid "Связаться с нами"
+msgstr "Contáctenos "
+
+#: .\templates\contact-us.html:12
+msgid ""
+"Есть вопрос, идея или просто хотите поболтать? <br> Наши контактные данные "
+"ниже"
+msgstr ""
+"¿Tienes alguna pregunta, idea o simplemente quieres charlar?<br>Nuestros "
+"datos de contacto se encuentran a continuación"
+
+#: .\templates\contact-us.html:17
+msgid "Ваше Имя"
+msgstr "Tu nombre"
+
+#: .\templates\contact-us.html:22
+msgid "Ваш Email"
+msgstr "Tu correo electrónico"
+
+#: .\templates\contact-us.html:27
+msgid "Сообщение"
+msgstr "Mensaje"
+
+#: .\templates\contact-us.html:33
+msgid "ОТПРАВИТЬ"
+msgstr "Enviar"
+
+#: .\templates\foo.html:7
+msgid "123"
+msgstr ""
+
+#: .\templates\index.html:8 .\templates\plain-page-base.html.py:8
+msgid "Знакомства в Telegram"
+msgstr "Citas en Telegram"
+
+#: .\templates\index.html:67 .\templates\index.html.py:229
+#: .\templates\plain-page-base.html:33 .\templates\plain-page-base.html:100
+msgid "О нас"
+msgstr "Sobre nosotros"
+
+#: .\templates\index.html:68 .\templates\index.html.py:230
+#: .\templates\plain-page-base.html:34 .\templates\plain-page-base.html:101
+msgid "Связь с нами"
+msgstr "Contáctenos"
+
+#: .\templates\index.html:69 .\templates\plain-page-base.html.py:35
+msgid "Поддержка"
+msgstr " Ayuda"
+
+#: .\templates\index.html:73 .\templates\index.html.py:228
+#: .\templates\plain-page-base.html:39 .\templates\plain-page-base.html:99
+msgid "Вопросы о Flirtu"
+msgstr "FAQ"
+
+#: .\templates\index.html:76 .\templates\plain-page-base.html.py:42
+msgid "Помощь"
+msgstr "Ayuda"
+
+#: .\templates\index.html:89 .\templates\plain-page-base.html.py:55
+msgid "Регистрация"
+msgstr "Registrarse"
+
+#: .\templates\index.html:108
+msgid "Знакомства внутри Telegram Messenger"
+msgstr "Citas en Telegram Messenger"
+
+#: .\templates\index.html:110
+msgid ""
+"Оценивайте фото людей поблизости от Вас <br>\n"
+"и при взаимной симпатии - общайтесь <br>\n"
+"напрямую прямо в Telegram."
+msgstr ""
+"Valora las fotos de personas cercanas a ti <br>\n"
+"Y cuando se sientan atraídos el uno por el otro, <br>\n"
+"charlen directamente en tu Telegram."
+
+#: .\templates\index.html:115 .\templates\index.html.py:117
+msgid "Начать знакомиться в Telegram"
+msgstr "Empieza a tener citas en Telegram"
+
+#: .\templates\index.html:122
+#, python-format
+msgid "🔐 100%% Бесплатно и Анонимно"
+msgstr "🔐 100%% gratuito y anónimo"
+
+#: .\templates\index.html:141
+msgid "Выбирайте"
+msgstr "Seleccionar"
+
+#: .\templates\index.html:143
+msgid "Просматривайте фотографии пользователей и отмечайте симпатии!"
+msgstr "¡Ve las fotos del usuario y marca me gusta!"
+
+#: .\templates\index.html:151
+msgid "Общайтесь"
+msgstr "Chatear"
+
+#: .\templates\index.html:153
+msgid ""
+"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента "
+"можно переходить в приват!"
+msgstr ""
+"¡En caso de simpatía mutua, ocurrirá una COINCIDENCIA! ¡Esto significa que a "
+"partir de este momento puedes pasar a algo más privado!"
+
+#: .\templates\index.html:171
+msgid "Новые Знакомства в Вашем Городе"
+msgstr "Nuevas citas en tu Ciudad"
+
+#: .\templates\index.html:173
+msgid ""
+"Flirtu не показывает вашего точного местоположения, но помогает вам завести "
+"новые знакомства с людьми поблизости."
+msgstr ""
+"Flirtu no muestra tu ubicación exacta, pero te ayuda a conocer gente cerca de "
+"ti."
+
+#: .\templates\index.html:181
+msgid "Знакомства по Интересам"
+msgstr "Citas por Interés"
+
+#: .\templates\index.html:183
+msgid ""
+"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс "
+"познакомиться с кем-то, кто разделяет ваши интересы."
+msgstr ""
+"Cuantos más intereses indiques, más gente te notará y mayores serán las "
+"posibilidades de conocer a alguien que comparta tus intereses."
+
+#: .\templates\index.html:200 .\templates\plain-page-base.html.py:71
+msgid "Присоединяйтесь прямо сейчас"
+msgstr "Únete ahora"
+
+#: .\templates\index.html:203 .\templates\plain-page-base.html.py:74
+msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
+msgstr ""
+"¡Forma parte de la red social más grande del mundo para conocer gente nueva!"
+
+#: .\templates\index.html:207 .\templates\index.html.py:209
+#: .\templates\plain-page-base.html:78 .\templates\plain-page-base.html:80
+msgid "Открыть в Telegram"
+msgstr "Abrir Telegram"
+
+#: .\templates\index.html:218 .\templates\plain-page-base.html.py:89
+msgid "Политика конфиденциальности"
+msgstr "Política de privacidad"
+
+#: .\templates\index.html:220 .\templates\plain-page-base.html.py:91
+msgid "Настройки Cookies"
+msgstr "Configuración de cookies"
+
+#: .\templates\index.html:223 .\templates\plain-page-base.html.py:94
+msgid "Пользовательское соглашение"
+msgstr "Condiciones de servicio"
+
+#: .\templates\translates.html:3
+msgid "👑 VIP статус"
+msgstr "👑 ESTATUS VIP"
+
+#: .\templates\translates.html:5
+msgid ""
+"Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+"сделайте селфи прямо сейчас!\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+"Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o tómate "
+"una selfie ahora mismo!\n"
+"\n"
+"👇 Presiona el clip📎 y selecciona una foto"
+
+#: .\templates\translates.html:9
+msgid "Напишите взаимной симпатии!"
+msgstr "Empieza a chatear ahora!"
+
+#: .\templates\translates.html:11
+msgid "👣 Перейти в раздел"
+msgstr "👣 Mira a quién le gustas"
+
+#: .\templates\translates.html:13
+#, python-brace-format
+msgid ""
+"🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+"начните общение прямо сейчас!"
+msgstr ""
+"🎉 Le gustaste al usuario {name}. Abre la sección \"Le gustas\" y empieza a "
+"conversar ahora mismo!"
+
+#: .\templates\translates.html:15
+msgid ""
+"🎁 Подарок от Flirtu! Мы активировал вам VIP доступ бесплатно на 3 месяца!"
+msgstr ""
+"🎁 ¡Regalo de Flirtu! ¡Hemos activado el acceso VIP para ti gratis durante 3 "
+"meses!"
+
+#: .\templates\translates.html:17
+msgid "💌 У вас есть непрочитанные сообщения!"
+msgstr "💌 ¡Tienes mensajes sin leer!"
+
+#, python-format
+#~ msgid "Вы общаетесь как %(name)s"
+#~ msgstr "Estás conectado como %(name)s"
+
+#~ msgid "Спонсоры"
+#~ msgstr "Patrocinadores"
+
+#~ msgid "Вы отменили процесс оплаты."
+#~ msgstr "El pago fue cancelado"
+
+#~ msgid "Пожалуйста, вернитесь в приложение Telegram."
+#~ msgstr "Por favor, vuelva a Flirtu"
+
+#~ msgid "🥳 Спасибо за покупку! 🎉"
+#~ msgstr "🥳 ¡Felicitaciones! 🎉"
+
+#~ msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgstr "Su pago fue procesado exitosamente. 🎉"
+
+#~ msgid "Уникальное предложение!"
+#~ msgstr "¡Oferta limitada!"
+
+#~ msgid "Активируйте VIP и Экономьте Деньги"
+#~ msgstr "Ahorra dinero al activar VIP"
+
+#~ msgid "С VIP статусом вы получите:"
+#~ msgstr "Como VIP obtendrás:"
+
+#~ msgid "✅ Доступ к разделу \"Вы понравились\""
+#~ msgstr "✅ Ver a quién le gustas"
+
+#~ msgid "✅ Безлимитный просмотр кандидатур"
+#~ msgstr "✅ Acceso ilimitado a todos los perfiles"
+
+#~ msgid "✅ Доступ к фильтрам раздела “Stories”"
+#~ msgstr "✅ Acceso al filtro de las \"Historias\""
+
+#~ msgid "✅ Больше взаимных симпатий"
+#~ msgstr "✅ Obtener coincidencias más rápido"
+
+#~ msgid "✅ + 1,000 монет"
+#~ msgstr "✅ + 1,000 monedas"
+
+#~ msgid "✅ Персональная тех. поддержка"
+#~ msgstr "✅ Soporte personalizado"
+
+#~ msgid "✅ Без рекламы"
+#~ msgstr "✅ Sin publicidad"
+
+#~ msgid "👉 ПОЛУЧИТЬ VIP 👈"
+#~ msgstr "👉 VUÉLVETE VIP 👈"
+
+#~ msgid "✅ + 1,000 монет каждый месяц"
+#~ msgstr "✅ + 1,000 monedas cada mes"
+
+#~ msgid "VIP статус"
+#~ msgstr "Status VIP"
+
+#~ msgid "мес."
+#~ msgstr "mes"
+
+#~ msgid "6 месяцев"
+#~ msgstr "6 meses"
+
+#~ msgid "Лучшая цена"
+#~ msgstr "Mejor precio"
+
+#~ msgid "Общая сумма"
+#~ msgstr "Total"
+
+#~ msgid "3 месяца"
+#~ msgstr "3 meses"
+
+#~ msgid "1 месяц"
+#~ msgstr "1 mes"
+
+#~ msgid "👉 ДАЛЕЕ 👈"
+#~ msgstr "👉 SIGUIENTE 👈"
+
+#~ msgid "Сейчас вы будете направлены на страницу оплаты."
+#~ msgstr "Ahora serás redirigido al proceso de pago."
+
+#~ msgid "Выбирайте.<br>Общайтесь.<br>Встречайтесь."
+#~ msgstr "Elije.<br>Chatea.<br>Conoce."
+
+#, fuzzy
+#~| msgid ""
+#~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~| "начните общение прямо сейчас!"
+#~ msgid ""
+#~ "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~ "начните общение с ней прямо сейчас!"
+#~ msgstr ""
+#~ "🎉 Le gustaste al usuario {name}. Abre la sección \"Le gustas\" y empieza a "
+#~ "conversar ahora mismo!"
+
+#, fuzzy
+#~| msgid "👉 ПОЛУЧИТЬ VIP 👈"
+#~ msgid "👉 Получить VIP 👈"
+#~ msgstr "👉 VUÉLVETE VIP 👈"
+
+#, fuzzy
+#~| msgid "Пожалуйста, вернитесь в приложение Telegram."
+#~ msgid "Пожалуйста загрузите фото"
+#~ msgstr "Por favor, vuelva a Flirtu"
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "✅ Поздравляем! Ваша фотография успешно прошла проверку."
+#~ msgstr "Su pago fue procesado exitosamente. 🎉"
+
+#, fuzzy
+#~| msgid ""
+#~| "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+#~| "сделайте селфи прямо сейчас!\n"
+#~| "\n"
+#~| "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgid ""
+#~ "❌ Загруженная фотография отклонена по причинам: {reason}. Пожалуйста "
+#~ "загрузите другое фото или сделайте фото прямо сейчас!"
+#~ msgstr ""
+#~ "Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o "
+#~ "tómate una selfie ahora mismo!\n"
+#~ "\n"
+#~ "👇 Presiona el clip📎 y selecciona una foto"
+
+#, fuzzy
+#~| msgid "Присоединяйтесь прямо сейчас"
+#~ msgid "Активируйте priority прямо сейчас!"
+#~ msgstr "Únete ahora"
+
+#, fuzzy
+#~| msgid "Напишите взаимной симпатии!"
+#~ msgid "💌 Написать симпатии"
+#~ msgstr "Empieza a chatear ahora!"
+
+#, fuzzy
+#~| msgid ""
+#~| "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+#~| "сделайте селфи прямо сейчас!\n"
+#~| "\n"
+#~| "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgid ""
+#~ "Добавьте фото или сделайте селфи!\n"
+#~ "\n"
+#~ "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgstr ""
+#~ "Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o "
+#~ "tómate una selfie ahora mismo!\n"
+#~ "\n"
+#~ "👇 Presiona el clip📎 y selecciona una foto"
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "🎉 Поздравляем! Ваш пост успешно опубликован!"
+#~ msgstr "Su pago fue procesado exitosamente. 🎉"
+
+#, fuzzy
+#~| msgid ""
+#~| "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+#~| "сделайте селфи прямо сейчас!\n"
+#~| "\n"
+#~| "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgid ""
+#~ "❌ Загруженная фотография отклонена. Пожалуйста загрузите другое фото или "
+#~ "сделайте фото прямо сейчас!"
+#~ msgstr ""
+#~ "Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o "
+#~ "tómate una selfie ahora mismo!\n"
+#~ "\n"
+#~ "👇 Presiona el clip📎 y selecciona una foto"
+
+#, fuzzy
+#~| msgid ""
+#~| "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+#~| "сделайте селфи прямо сейчас!\n"
+#~| "\n"
+#~| "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgid ""
+#~ "✅ Финальный шаг!\n"
+#~ "\n"
+#~ "<b>Добавьте свое фото или сделайте селфи!</b>\n"
+#~ "\n"
+#~ "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgstr ""
+#~ "Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o "
+#~ "tómate una selfie ahora mismo!\n"
+#~ "\n"
+#~ "👇 Presiona el clip📎 y selecciona una foto"
+
+#, fuzzy
+#~| msgid ""
+#~| "Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+#~| "сделайте селфи прямо сейчас!\n"
+#~| "\n"
+#~| "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgid ""
+#~ "Добавьте свое фото или сделайте селфи!\n"
+#~ "\n"
+#~ "👇 Нажмите на скрепку 📎 и прикрепите фото"
+#~ msgstr ""
+#~ "Tu foto de perfil ha sido rechazada. ¡Por favor sube una nueva foto o "
+#~ "tómate una selfie ahora mismo!\n"
+#~ "\n"
+#~ "👇 Presiona el clip📎 y selecciona una foto"
+
+#, fuzzy
+#~| msgid "Присоединяйтесь прямо сейчас"
+#~ msgid ""
+#~ "\n"
+#~ "Нажмите на 💚 и начните общение прямо сейчас!"
+#~ msgstr "Únete ahora"
+
+#, fuzzy
+#~| msgid "Пожалуйста, вернитесь в приложение Telegram."
+#~ msgid "Пожалуйста оцените данного пользователя {emoji_like}."
+#~ msgstr "Por favor, vuelva a Flirtu"
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "✅ Покупка успешно совершена!"
+#~ msgstr "Su pago fue procesado exitosamente. 🎉"
+
+#, fuzzy
+#~| msgid ""
+#~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~| "начните общение прямо сейчас!"
+#~ msgid ""
+#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо сейчас. "
+#~ "Откройте раздел “Вы понравились”"
+#~ msgstr ""
+#~ "🎉 Le gustaste al usuario {name}. Abre la sección \"Le gustas\" y empieza a "
+#~ "conversar ahora mismo!"

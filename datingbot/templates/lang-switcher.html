@@ -1,0 +1,26 @@
+{% load i18n static %}
+<div class="header__leng">
+    {% get_available_languages as languages %}
+    {% get_current_language as LANGUAGE_CODE %}
+
+        <span>{{ LANGUAGE_CODE|upper }}</span>
+        <div class="header__leng-links">
+            {% for lang_code, lang_name in languages %}
+                    {% if lang_code in 'en,es,ru' %}
+                        {% language lang_code %}
+                            <a href="javascript://"
+                               onclick="document.getElementById('language_setter').value = '{{ lang_code }}';
+                                       document.getElementById('next').value = '{% url request.resolver_match.url_name %}';
+                                       document.getElementById('language_change_form').submit();">{{ lang_code|upper }}</a>
+                        {% endlanguage %}
+                    {% endif %}
+                {% endfor %}
+        </div>
+
+    <img src="{% static 'assets/img/down-black.svg' %}" alt="">
+    <form id="language_change_form" action="/i18n/setlang/" method="POST">
+        {% csrf_token %}
+        <input id="next" name="next" type="hidden" value="{{ request.path }}"/>
+        <input id="language_setter" type="hidden" name="language" value="en"/>
+    </form>
+</div>

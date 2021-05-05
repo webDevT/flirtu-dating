@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 18:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _user/templates/chat.html:117
+#, python-format
+msgid "Вы общаетесь как %(name)s"
+msgstr "Siz %(name)s sifatida tizimga kirgansiz"
+
+#: templates/admin/_user_change_list_template.html:31
+#: templates/admin/story_change_list_template.html:31
+msgid "Home"
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:49
+#: templates/admin/story_change_list_template.html:49
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:58
+#: templates/admin/story_change_list_template.html:58
+msgid "Please correct the error below."
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:58
+#: templates/admin/story_change_list_template.html:58
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/admin/_user_change_list_template.html:73
+#: templates/admin/story_change_list_template.html:73
+msgid "Filter"
+msgstr ""
+
+#: templates/index.html:8 templates/index.html.py:63
+#: templates/payment-cancel.html:8 templates/payment-cancel.html.py:19
+#: templates/payment-success.html:8 templates/payment-success.html.py:36
+#: templates/payment-vip-trial-not-supported.html:8
+#: templates/payment-vip-trial-not-supported.html:19
+#: templates/premium-plan-fortumo.html:9 templates/premium-plan-fortumo.html:32
+#: templates/premium-plan-with-trial.html:9
+#: templates/premium-plan-with-trial.html:31 templates/premium-plan.html:9
+#: templates/premium-plan.html.py:22 templates/premium.html:9
+#: templates/premium.html.py:31 templates/unitpay-paying-form.html:8
+#: templates/unitpay-paying-form.html:21
+msgid "Знакомства в Telegram"
+msgstr "Telegramda tanishuvlar"
+
+#: templates/index.html:65
+msgid ""
+"Оценивайте фото людей поблизости от Вас <br>\n"
+"и при взаимной симпатии - общайтесь <br>\n"
+"напрямую прямо в Telegram."
+msgstr ""
+
+#: templates/index.html:70 templates/index.html.py:72 templates/index.html:163
+#: templates/index.html.py:165 templates/payment-cancel.html:48
+#: templates/payment-success.html.py:65
+#: templates/payment-vip-trial-not-supported.html:48
+msgid "Открыть в Telegram"
+msgstr "Telegramda ochish"
+
+#: templates/index.html:77
+#, python-format
+msgid "🔐 100%% Бесплатно и Анонимно"
+msgstr ""
+
+#: templates/index.html:97
+msgid "Выбирайте"
+msgstr ""
+
+#: templates/index.html:99
+msgid "Просматривайте фотографии пользователей и отмечайте симпатии!"
+msgstr ""
+
+#: templates/index.html:107
+msgid "Общайтесь"
+msgstr "Jami"
+
+#: templates/index.html:109
+msgid ""
+"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого "
+"момента можно переходить в приват!"
+msgstr ""
+
+#: templates/index.html:127
+msgid "Новые Знакомства в Вашем Городе"
+msgstr ""
+
+#: templates/index.html:129
+msgid ""
+"Flirtu не показывает вашего точного местоположения, но помогает вам завести "
+"новые знакомства с людьми поблизости."
+msgstr ""
+
+#: templates/index.html:137
+msgid "Знакомства по Интересам"
+msgstr "Telegramda tanishuvlar"
+
+#: templates/index.html:139
+msgid ""
+"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше "
+"шанс познакомиться с кем-то, кто разделяет ваши интересы."
+msgstr ""
+
+#: templates/index.html:156
+msgid "Присоединяйтесь прямо сейчас"
+msgstr ""
+
+#: templates/index.html:159
+msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
+msgstr ""
+
+#: templates/index.html:174
+msgid "Пользовательское соглашение"
+msgstr "Noyob taklif!"
+
+#: templates/index.html:176
+msgid "Политика конфиденциальности"
+msgstr ""
+
+#: templates/index.html:177
+msgid "Вопросы о Flirtu"
+msgstr ""
+
+#: templates/index.html:183
+msgid "Помощь"
+msgstr ""
+
+#: templates/index.html:186
+msgid "Спонсоры"
+msgstr ""
+
+#: templates/payment-cancel.html:35
+msgid "Вы отменили процесс оплаты."
+msgstr "Siz to'lov jarayonini bekor qildingiz."
+
+#: templates/payment-cancel.html:38 templates/payment-success.html.py:55
+#: templates/payment-vip-trial-not-supported.html:38
+msgid "Пожалуйста, вернитесь в приложение Telegram."
+msgstr "Endi Telegram Messengeriga qayting."
+
+#: templates/payment-success.html:49
+msgid "🥳 Спасибо за покупку! 🎉"
+msgstr "🥳 Rahmat! Xarid muvaffaqiyatli amalga oshirildi! 🎉"
+
+#: templates/payment-success.html:52
+msgid "Поздравляем, ваша покупка успешно совершена."
+msgstr "Tabriklaymiz! Xarid muvaffaqiyatli amalga oshirildi!"
+
+#: templates/payment-vip-trial-not-supported.html:35
+msgid "Бесплатный VIP доступ не доступен."
+msgstr ""
+
+#: templates/premium-plan-fortumo.html:46 templates/premium.html.py:45
+msgid "Уникальное предложение!"
+msgstr "Noyob taklif!"
+
+#: templates/premium-plan-fortumo.html:49 templates/premium.html.py:48
+msgid "Активируйте VIP и Экономьте Деньги"
+msgstr "Tejashni xohlaysizmi? Hoziroq VIP xizmatini faollashtiring!"
+
+#: templates/premium-plan-fortumo.html:53
+#: templates/premium-plan-with-trial.html:52 templates/premium.html.py:52
+msgid "С VIP статусом вы получите:"
+msgstr "VIP orqali siz quyidagilarga ega bo'lasiz:"
+
+#: templates/premium-plan-fortumo.html:56
+#: templates/premium-plan-with-trial.html:55 templates/premium.html.py:55
+msgid "✅ Доступ к разделу \"Вы понравились\""
+msgstr "✅ \"Sizga yoqdi\" bo'limiga kirish"
+
+#: templates/premium-plan-fortumo.html:57
+#: templates/premium-plan-with-trial.html:56 templates/premium.html.py:56
+msgid "✅ Безлимитный просмотр кандидатур"
+msgstr "✅ Nomzodlarni cheklovlarsiz ko'rish"
+
+#: templates/premium-plan-fortumo.html:58
+#: templates/premium-plan-with-trial.html:57 templates/premium.html.py:57
+msgid "✅ Доступ к фильтрам раздела “Stories”"
+msgstr "✅ “Stories” bo'limidagi barcha filtrlarga kirish"
+
+#: templates/premium-plan-fortumo.html:59
+#: templates/premium-plan-with-trial.html:58 templates/premium.html.py:58
+msgid "✅ Больше взаимных симпатий"
+msgstr "✅ Ko'proq o'zaro yoqtirishlar"
+
+#: templates/premium-plan-fortumo.html:60
+msgid "✅ + 1,000 монет"
+msgstr "✅ Har oy 1000 tanga"
+
+#: templates/premium-plan-fortumo.html:61
+#: templates/premium-plan-with-trial.html:60 templates/premium.html.py:60
+msgid "✅ Персональная тех. поддержка"
+msgstr "✅ Shaxsiy texnik qo'llab-quvvatlash"
+
+#: templates/premium-plan-fortumo.html:62
+#: templates/premium-plan-with-trial.html:61 templates/premium.html.py:61
+msgid "✅ Без рекламы"
+msgstr "✅ Reklamalarsiz"
+
+#: templates/premium-plan-fortumo.html:69
+#: templates/premium-plan-with-trial.html:68 templates/premium.html.py:65
+msgid "👉 ПОЛУЧИТЬ VIP 👈"
+msgstr "👉 VIP XIZMATINI YOQISH 👈"
+
+#: templates/premium-plan-with-trial.html:45
+msgid "VIP на 3 дня"
+msgstr ""
+
+#: templates/premium-plan-with-trial.html:48
+#, python-format
+msgid "100%% Бесплатно!"
+msgstr ""
+
+#: templates/premium-plan-with-trial.html:59 templates/premium.html.py:59
+msgid "✅ + 1,000 монет каждый месяц"
+msgstr "✅ Har oy 1000 tanga"
+
+#: templates/premium-plan.html:38
+msgid "VIP статус"
+msgstr "👑 VIP holati"
+
+#: templates/premium-plan.html:48 templates/premium-plan.html.py:68
+#: templates/premium-plan.html:88
+msgid "мес."
+msgstr "oyiga"
+
+#: templates/premium-plan.html:55
+msgid "6 месяцев"
+msgstr "6 oy"
+
+#: templates/premium-plan.html:58
+msgid "Лучшая цена"
+msgstr "Eng yaxshi narx"
+
+#: templates/premium-plan.html:61 templates/premium-plan.html.py:81
+#: templates/premium-plan.html:101
+msgid "Общая сумма"
+msgstr "Jami"
+
+#: templates/premium-plan.html:75
+msgid "3 месяца"
+msgstr "3 oy"
+
+#: templates/premium-plan.html:95
+msgid "1 месяц"
+msgstr "1 oy"
+
+#: templates/premium-plan.html:112 templates/premium-plan.html.py:118
+msgid "👉 ДАЛЕЕ 👈"
+msgstr "👉 KEYINGISI 👈"
+
+#: templates/translates.html:3
+msgid "👑 VIP статус"
+msgstr "👑 VIP holati"
+
+#: templates/translates.html:5
+msgid ""
+"Ваше фото профиля было отклонено. Пожалуйста, выгрузите новое фото или "
+"сделайте селфи прямо сейчас!\n"
+"\n"
+"👇 Нажмите на скрепку 📎 и прикрепите фото"
+msgstr ""
+
+#: templates/translates.html:9
+msgid "Напишите взаимной симпатии!"
+msgstr "Suhbatlashishni hoziroq boshlang!"
+
+#: templates/translates.html:11
+msgid "👣 Перейти в раздел"
+msgstr "👣 Bo'limga o'ting"
+
+#: templates/translates.html:13
+#, python-brace-format
+msgid ""
+"🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+"начните общение прямо сейчас!"
+msgstr ""
+"🎉 Sizga {name} ismli foydalanuvchi yoqdi. “Sizga yoqdi” bo'limini oching va "
+"u hoziroq suhbatlashishni boshlang!"
+
+#: templates/translates.html:15
+msgid ""
+"🎁 Подарок от Flirtu! Мы активировал вам VIP доступ бесплатно на 3 месяца!"
+msgstr ""
+"🎁 Fl Flirtu-dan sovg'a! Biz siz uchun 3 oy davomida VIP-ni bepul uladik!"
+
+#: templates/translates.html:17
+msgid "💌 У вас есть непрочитанные сообщения!"
+msgstr "💌 Sizda o'qilmagan xabarlar bor!"
+
+#: templates/unitpay-paying-form.html:33
+msgid "Сейчас вы будете направлены на страницу оплаты."
+msgstr "Siz hozir to'lov sahifasiga yo'naltirilasiz"
+
+#, fuzzy
+#~| msgid ""
+#~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~| "начните общение прямо сейчас!"
+#~ msgid ""
+#~ "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~ "начните общение с ней прямо сейчас!"
+#~ msgstr ""
+#~ "🎉 Sizga {name} ismli foydalanuvchi yoqdi. “Sizga yoqdi” bo'limini oching "
+#~ "va u hoziroq suhbatlashishni boshlang!"
+
+#, fuzzy
+#~| msgid "👉 ПОЛУЧИТЬ VIP 👈"
+#~ msgid "👉 Получить VIP 👈"
+#~ msgstr "👉 VIP XIZMATINI YOQISH 👈"
+
+#, fuzzy
+#~| msgid "Пожалуйста, вернитесь в приложение Telegram."
+#~ msgid "Пожалуйста загрузите фото"
+#~ msgstr "Endi Telegram Messengeriga qayting."
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "✅ Поздравляем! Ваша фотография успешно прошла проверку."
+#~ msgstr "Tabriklaymiz! Xarid muvaffaqiyatli amalga oshirildi!"
+
+#, fuzzy
+#~| msgid "Напишите взаимной симпатии!"
+#~ msgid "💌 Написать симпатии"
+#~ msgstr "Suhbatlashishni hoziroq boshlang!"
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "🎉 Поздравляем! Ваш пост успешно опубликован!"
+#~ msgstr "Tabriklaymiz! Xarid muvaffaqiyatli amalga oshirildi!"
+
+#, fuzzy
+#~| msgid "Пожалуйста, вернитесь в приложение Telegram."
+#~ msgid "Пожалуйста оцените данного пользователя {emoji_like}."
+#~ msgstr "Endi Telegram Messengeriga qayting."
+
+#, fuzzy
+#~| msgid "Поздравляем, ваша покупка успешно совершена."
+#~ msgid "✅ Покупка успешно совершена!"
+#~ msgstr "Tabriklaymiz! Xarid muvaffaqiyatli amalga oshirildi!"
+
+#, fuzzy
+#~| msgid ""
+#~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
+#~| "начните общение прямо сейчас!"
+#~ msgid ""
+#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо "
+#~ "сейчас. Откройте раздел “Вы понравились”"
+#~ msgstr ""
+#~ "🎉 Sizga {name} ismli foydalanuvchi yoqdi. “Sizga yoqdi” bo'limini oching "
+#~ "va u hoziroq suhbatlashishni boshlang!"
+
+#~ msgid "✅ “Stories” bo'limidagi barcha filtrlarga kirish"
+#~ msgstr "✅ Доступ ко всем фильтрам раздела “Stories”"

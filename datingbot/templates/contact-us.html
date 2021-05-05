@@ -1,0 +1,41 @@
+{% extends "plain-page-base.html" %}
+{% load i18n static thumbnail %}
+
+{% block content %}
+
+    <div class="template-content">
+    <div class="container-fluid">
+        <h2 class="page-title">{% trans 'Связаться с нами' %}
+</h2>
+<div class="contact-us__form">
+    <div class="contact-us__sub-title">
+        {% trans 'Есть вопрос, идея или просто хотите поболтать? <br> Наши контактные данные ниже' %}
+</div>
+    <form action="">
+
+        <div class="form-row">
+            <label for="" class="label">{% trans 'Ваше Имя' %}</label>
+            <input type="text" placeholder="Name">
+        </div>
+
+         <div class="form-row">
+            <label for="" class="label">{% trans 'Ваш Email' %}</label>
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="form-row">
+            <label for="" class="label">{% trans 'Сообщение' %}</label>
+            <textarea name="" id="" cols="" rows="" placeholder="Message"></textarea>
+        </div>
+
+        <div class="form-button">
+            <button type="" class="button">
+           {% trans 'ОТПРАВИТЬ' %}
+        </button>
+        </div>
+    </form>
+</div>
+    </div>
+</div>
+    
+{% endblock %}
