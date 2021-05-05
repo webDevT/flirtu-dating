@@ -158,20 +158,21 @@
 
            <div class="cookis__left">
                <div class="cookis__text cookis__text--bold">
-                   We use cookies to improve the content <br> and offerings on our site.
+                {% trans 'Мы используем файлы cookie для улучшения содержания <br> и предложений на нашем сайте.' %}
                </div>
                <div class="cookis__text">
-                   Learn more about our cookie policy <a target="_blank" href="privacy.html">here</a>
+                  {% trans 'Узнайте больше о нашей политике в отношении файлов cookie ' %}<a target="_blank" href="{% url 'privacy' %}">
+                  {% trans 'здесь' %}</a>
                </div>
            </div>
 
            <div class="cookis__right">
               <div class="accept__cookis">
-                  Accept all cookies
+                 {% trans 'Принять все файлы cookie'  %}
               </div>
 
               <div class="cookis__setting">
-                  Cookie Settings
+                  {% trans 'Настройки Cookie'  %}
               </div>
            </div>
 
@@ -179,7 +180,7 @@
 
               <div class="cookis__setting-header">
                   <div class="cookis__setting-header-title">
-                      Cookie Settings
+                      {% trans 'Настройки Cookie' %}
                   </div>
 
                   <div class="cookis__setting-close">
@@ -192,11 +193,11 @@
                       <div class="checkbox__wrapper">
                           <input type="checkbox" id="1" class="checkbox" checked disabled="">
                           <label for="1" class="checkbox-square"></label>
-                          <label for="1" class="checkbox-text">Necessary</label>
+                          <label for="1" class="checkbox-text">{% trans 'Hеобходимые' %}</label>
                       </div>
                   </div>
 
-                  <p>These cookies are necessary for the website to function and can not be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, or filling in forms.</p>
+                  <p>{% trans 'Эти файлы cookie необходимы для работы веб-сайта и не могут быть отключены в наших системах. Обычно они устанавливаются только в ответ на ваши действия, которые равносильны запросу на услуги, например, установка ваших настроек конфиденциальности, вход в систему или заполнение форм.'  %}</p>
               </div>
 
                <div class="cookis__setting-item">
@@ -204,11 +205,11 @@
                       <div class="checkbox__wrapper">
                           <input type="checkbox" id="2" class="checkbox" checked>
                           <label for="2" class="checkbox-square"></label>
-                          <label for="2" class="checkbox-text">Preferences</label>
+                          <label for="2" class="checkbox-text">{% trans 'Предпочтительные' %}</label>
                       </div>
                   </div>
 
-                  <p>These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or third-party providers whose services we have added to our pages.</p>
+                  <p>{% trans 'Эти файлы cookie позволяют веб-сайту предоставлять расширенные функциональные возможности и персонализацию. Они могут быть установлены нами или сторонними поставщиками, услуги которых мы добавили на наши страницы.' %}</p>
               </div>
 
                <div class="cookis__setting-item">
@@ -216,11 +217,11 @@
                       <div class="checkbox__wrapper">
                           <input type="checkbox" id="3" class="checkbox" checked>
                           <label for="3" class="checkbox-square"></label>
-                          <label for="3" class="checkbox-text">Statistics</label>
+                          <label for="3" class="checkbox-text">{% trans 'Статистика' %}</label>
                       </div>
                   </div>
 
-                  <p>These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our site. They help us to understand how pages are used and how visitors move around the website.</p>
+                  <p>{% trans 'Эти файлы cookie позволяют нам подсчитывать посещения и источники трафика, чтобы мы могли измерять и улучшать производительность нашего сайта. Они помогают нам понять, как используются страницы и как посетители перемещаются по сайту.' %}</p>
               </div>
 
                <div class="cookis__setting-item">
@@ -228,15 +229,15 @@
                       <div class="checkbox__wrapper">
                           <input type="checkbox" id="3" class="checkbox" checked>
                           <label for="3" class="checkbox-square"></label>
-                          <label for="3" class="checkbox-text">Marketing</label>
+                          <label for="3" class="checkbox-text">{% trans 'Маркетинг' %}</label>
                       </div>
                   </div>
 
-                  <p>These cookies may be set by our advertising partners. They may use the cookies to build a profile of your interests and show relevant adverts on other sites.</p>
+                  <p>{% trans 'Эти файлы cookie могут быть установлены нашими рекламными партнерами. Они могут использовать файлы cookie для создания профиля ваших интересов и показа релевантной рекламы на других сайтах.' %} </p>
               </div>
 
               <div class="cookis__setting-button">
-                  Save
+                 {% trans 'Сохранить' %}
               </div>
 
            </div>
@@ -245,74 +246,6 @@
 </div>
 <!-- coocis cookis modal -->
 
-<!-- start cookis setting modal -->
-<div class="cookis-setting-modal">
-     <div class="cookis__setting-content">
-
-              <div class="cookis__setting-header">
-                  <div class="cookis__setting-header-title">
-                      Cookie Settings
-                  </div>
-
-                  <div class="cookis__setting-close">
-                      <svg height="329pt" viewBox="0 0 329.26933 329" width="329pt" xmlns="http://www.w3.org/2000/svg"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>
-                  </div>
-              </div>
-
-             <div class="cookis__setting-item">
-                  <div class="checkbox__row">
-                      <div class="checkbox__wrapper">
-                          <input type="checkbox" id="1" class="checkbox" checked disabled="">
-                          <label for="1" class="checkbox-square"></label>
-                          <label for="1" class="checkbox-text">Necessary</label>
-                      </div>
-                  </div>
-
-                  <p>These cookies are necessary for the website to function and can not be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, or filling in forms.</p>
-              </div>
-
-               <div class="cookis__setting-item">
-                  <div class="checkbox__row">
-                      <div class="checkbox__wrapper">
-                          <input type="checkbox" id="2" class="checkbox" checked>
-                          <label for="2" class="checkbox-square"></label>
-                          <label for="2" class="checkbox-text">Preferences</label>
-                      </div>
-                  </div>
-
-                  <p>These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or third-party providers whose services we have added to our pages.</p>
-              </div>
-
-               <div class="cookis__setting-item">
-                  <div class="checkbox__row">
-                      <div class="checkbox__wrapper">
-                          <input type="checkbox" id="3" class="checkbox" checked>
-                          <label for="3" class="checkbox-square"></label>
-                          <label for="3" class="checkbox-text">Statistics</label>
-                      </div>
-                  </div>
-
-                  <p>These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our site. They help us to understand how pages are used and how visitors move around the website.</p>
-              </div>
-
-               <div class="cookis__setting-item">
-                  <div class="checkbox__row">
-                      <div class="checkbox__wrapper">
-                          <input type="checkbox" id="3" class="checkbox" checked>
-                          <label for="3" class="checkbox-square"></label>
-                          <label for="3" class="checkbox-text">Marketing</label>
-                      </div>
-                  </div>
-
-                  <p>These cookies may be set by our advertising partners. They may use the cookies to build a profile of your interests and show relevant adverts on other sites.</p>
-              </div>
-              <div class="cookis__setting-button">
-                  Save
-              </div>
-
-           </div>
-</div>
-<!-- end cookis setting modal -->
 
 
 </body>

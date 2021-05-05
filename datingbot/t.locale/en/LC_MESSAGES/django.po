@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-05 09:54+0300\n"
-"PO-Revision-Date: 2021-05-05 09:56+0300\n"
+"POT-Creation-Date: 2021-05-05 16:57+0300\n"
+"PO-Revision-Date: 2021-05-05 17:04+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -49,42 +49,63 @@ msgstr "SEND"
 msgid "123"
 msgstr ""
 
+#: .\templates\footer.html:7
+msgid "Присоединяйтесь прямо сейчас"
+msgstr "Join Now"
+
+#: .\templates\footer.html:10
+msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
+msgstr "Become a part of the world's largest social networking site!"
+
+#: .\templates\footer.html:14 .\templates\footer.html.py:16
+msgid "Открыть в Telegram"
+msgstr "Open Telegram"
+
+#: .\templates\footer.html:25
+msgid "Политика конфиденциальности"
+msgstr "Privacy Policy "
+
+#: .\templates\footer.html:27
+msgid "Настройки Cookies"
+msgstr "Cookies Setting"
+
+#: .\templates\footer.html:30
+msgid "Пользовательское соглашение"
+msgstr "Terms of use"
+
+#: .\templates\footer.html:35 .\templates\header.html.py:24
+msgid "Вопросы о Flirtu"
+msgstr "FAQ"
+
+#: .\templates\footer.html:36 .\templates\header.html.py:18
+msgid "О нас"
+msgstr "About us"
+
+#: .\templates\footer.html:37 .\templates\header.html.py:19
+msgid "Связь с нами"
+msgstr "Contact us"
+
+#: .\templates\header.html:20
+msgid "Поддержка"
+msgstr "Support"
+
+#: .\templates\header.html:27
+msgid "Помощь"
+msgstr "Help"
+
+#: .\templates\header.html:36
+msgid "Регистрация"
+msgstr "Sign up"
+
 #: .\templates\index.html:8 .\templates\plain-page-base.html.py:8
 msgid "Знакомства в Telegram"
 msgstr "Telegram Dating"
 
-#: .\templates\index.html:67 .\templates\index.html.py:229
-#: .\templates\plain-page-base.html:33 .\templates\plain-page-base.html:100
-msgid "О нас"
-msgstr "About us"
-
-#: .\templates\index.html:68 .\templates\index.html.py:230
-#: .\templates\plain-page-base.html:34 .\templates\plain-page-base.html:101
-msgid "Связь с нами"
-msgstr "Contact us"
-
-#: .\templates\index.html:69 .\templates\plain-page-base.html.py:35
-msgid "Поддержка"
-msgstr "Support"
-
-#: .\templates\index.html:73 .\templates\index.html.py:228
-#: .\templates\plain-page-base.html:39 .\templates\plain-page-base.html:99
-msgid "Вопросы о Flirtu"
-msgstr "FAQ"
-
-#: .\templates\index.html:76 .\templates\plain-page-base.html.py:42
-msgid "Помощь"
-msgstr "Help"
-
-#: .\templates\index.html:89 .\templates\plain-page-base.html.py:55
-msgid "Регистрация"
-msgstr "Sign up"
-
-#: .\templates\index.html:108
+#: .\templates\index.html:60
 msgid "Знакомства внутри Telegram Messenger"
 msgstr "Dating in Telegram Messenger"
 
-#: .\templates\index.html:110
+#: .\templates\index.html:62
 msgid ""
 "Оценивайте фото людей поблизости от Вас <br>\n"
 "и при взаимной симпатии - общайтесь <br>\n"
@@ -94,28 +115,28 @@ msgstr ""
 "and with mutual sympathy - communicate <br>\n"
 "directly directly to Telegram."
 
-#: .\templates\index.html:115 .\templates\index.html.py:117
+#: .\templates\index.html:67 .\templates\index.html.py:69
 msgid "Начать знакомиться в Telegram"
 msgstr "Start dating in Telegram"
 
-#: .\templates\index.html:122
+#: .\templates\index.html:74
 #, python-format
 msgid "🔐 100%% Бесплатно и Анонимно"
 msgstr "🔐 100%% Free and Anonymously"
 
-#: .\templates\index.html:141
+#: .\templates\index.html:94
 msgid "Выбирайте"
 msgstr "Choose"
 
-#: .\templates\index.html:143
+#: .\templates\index.html:96
 msgid "Просматривайте фотографии пользователей и отмечайте симпатии!"
 msgstr "View user photos and mark likes!"
 
-#: .\templates\index.html:151
+#: .\templates\index.html:104
 msgid "Общайтесь"
 msgstr "Communicate"
 
-#: .\templates\index.html:153
+#: .\templates\index.html:106
 msgid ""
 "При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента "
 "можно переходить в приват!"
@@ -123,22 +144,22 @@ msgstr ""
 "With mutual sympathy, COINCIDENCE will occur! This means that from this "
 "moment you can go to private!"
 
-#: .\templates\index.html:171
+#: .\templates\index.html:124
 msgid "Новые Знакомства в Вашем Городе"
 msgstr "New acquaintances In your city"
 
-#: .\templates\index.html:173
+#: .\templates\index.html:126
 msgid ""
 "Flirtu не показывает вашего точного местоположения, но помогает вам завести "
 "новые знакомства с людьми поблизости."
 msgstr ""
 "Flirtu does not show your exact location, but it helps you meet people nearby."
 
-#: .\templates\index.html:181
+#: .\templates\index.html:134
 msgid "Знакомства по Интересам"
 msgstr "Dating by Interest"
 
-#: .\templates\index.html:183
+#: .\templates\index.html:136
 msgid ""
 "Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс "
 "познакомиться с кем-то, кто разделяет ваши интересы."
@@ -146,30 +167,92 @@ msgstr ""
 "The more interests you list, the more people will notice you and the higher "
 "the chance of meeting someone who shares your interests."
 
-#: .\templates\index.html:200 .\templates\plain-page-base.html.py:71
-msgid "Присоединяйтесь прямо сейчас"
-msgstr "Join Now"
+#: .\templates\index.html:161
+msgid ""
+"Мы используем файлы cookie для улучшения содержания <br> и предложений на "
+"нашем сайте."
+msgstr ""
+" We use cookies to improve the content <br>\n"
+" and offerings on our site."
 
-#: .\templates\index.html:203 .\templates\plain-page-base.html.py:74
-msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
-msgstr "Become a part of the world's largest social networking site!"
+#: .\templates\index.html:164
+msgid "Узнайте больше о нашей политике в отношении файлов cookie "
+msgstr "Learn more about our cookie policy"
 
-#: .\templates\index.html:207 .\templates\index.html.py:209
-#: .\templates\plain-page-base.html:78 .\templates\plain-page-base.html:80
-msgid "Открыть в Telegram"
-msgstr "Open Telegram"
+#: .\templates\index.html:165
+msgid "здесь"
+msgstr "here"
 
-#: .\templates\index.html:218 .\templates\plain-page-base.html.py:89
-msgid "Политика конфиденциальности"
-msgstr "Privacy Policy "
+#: .\templates\index.html:171
+msgid "Принять все файлы cookie"
+msgstr "Accept all cookies"
 
-#: .\templates\index.html:220 .\templates\plain-page-base.html.py:91
-msgid "Настройки Cookies"
-msgstr "Cookies Setting"
+#: .\templates\index.html:175 .\templates\index.html.py:183
+msgid "Настройки Cookie"
+msgstr "Cookie Settings"
 
-#: .\templates\index.html:223 .\templates\plain-page-base.html.py:94
-msgid "Пользовательское соглашение"
-msgstr "Terms of use"
+#: .\templates\index.html:196
+msgid "Hеобходимые"
+msgstr "Necessary"
+
+#: .\templates\index.html:200
+msgid ""
+"Эти файлы cookie необходимы для работы веб-сайта и не могут быть отключены в "
+"наших системах. Обычно они устанавливаются только в ответ на ваши действия, "
+"которые равносильны запросу на услуги, например, установка ваших настроек "
+"конфиденциальности, вход в систему или заполнение форм."
+msgstr ""
+"These cookies are necessary for the website to function and can not be "
+"switched off in our systems. They are usually only set in response to actions "
+"made by you which amount to a request for services, such as setting your "
+"privacy preferences, logging in, or filling in forms."
+
+#: .\templates\index.html:208
+msgid "Предпочтительные"
+msgstr "Preferences"
+
+#: .\templates\index.html:212
+msgid ""
+"Эти файлы cookie позволяют веб-сайту предоставлять расширенные функциональные "
+"возможности и персонализацию. Они могут быть установлены нами или сторонними "
+"поставщиками, услуги которых мы добавили на наши страницы."
+msgstr ""
+"These cookies enable the website to provide enhanced functionality and "
+"personalization. They may be set by us or third-party providers whose "
+"services we have added to our pages."
+
+#: .\templates\index.html:220
+msgid "Статистика"
+msgstr "Statistics"
+
+#: .\templates\index.html:224
+msgid ""
+"Эти файлы cookie позволяют нам подсчитывать посещения и источники трафика, "
+"чтобы мы могли измерять и улучшать производительность нашего сайта. Они "
+"помогают нам понять, как используются страницы и как посетители перемещаются "
+"по сайту."
+msgstr ""
+"These cookies allow us to count visits and traffic sources so that we can "
+"measure and improve the performance of our site. They help us to understand "
+"how pages are used and how visitors move around the website."
+
+#: .\templates\index.html:232
+msgid "Маркетинг"
+msgstr "Marketing"
+
+#: .\templates\index.html:236
+msgid ""
+"Эти файлы cookie могут быть установлены нашими рекламными партнерами. Они "
+"могут использовать файлы cookie для создания профиля ваших интересов и показа "
+"релевантной рекламы на других сайтах."
+msgstr ""
+"These cookies may be set by our advertising partners. They may use the "
+"cookies to build a profile of your interests and show relevant adverts on "
+"other sites."
+
+#: .\templates\index.html:240
+msgid "Сохранить"
+msgstr "Save"
 
 #: .\templates\translates.html:3
 msgid "👑 VIP статус"
