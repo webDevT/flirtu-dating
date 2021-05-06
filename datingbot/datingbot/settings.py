@@ -24,6 +24,8 @@ SECRET_KEY = 'o+8bd)w_aym01)e42j&b7w6vz$yu54a@fe+zo$tjy9-u1=w6mf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+HTML_SLICING_PRODUCTION = True
+HTML_SLICING_CDN_PREFIX = "//d33tflfwlj5scn.cloudfront.net"
 
 ALLOWED_HOSTS = []
 

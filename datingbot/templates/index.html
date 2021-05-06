@@ -1,4 +1,4 @@
-{% load i18n static thumbnail %}
+{% load i18n cstatic thumbnail %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,7 @@
       src="https://www.facebook.com/tr?id=478292439333515&ev=Main PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
-    <link rel="preload" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img1.png' %}" as="image">
+    <link rel="preload" href="{% static 'assets/img/img1.png' %}" as="image">
 
 
     <!-- Global site tag (gtag.js) - Google Ads: 965766452 -->
@@ -70,9 +70,9 @@
         </div>
 
 
-        <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/bg-h.png' %}" alt="" class="header__line header__line--desc">
+        <img src="{% static 'assets/img/bg-h.png' %}" alt="" class="header__line header__line--desc">
 
-         <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/mob.svg' %}" alt="" class="header__line header__line--mob">
+         <img src="{% static 'assets/img/mob.svg' %}" alt="" class="header__line header__line--mob">
   
 </header>
 
@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-md-6 content__item-image-wrapper">
                 <div class="content__item content__item-image">
-                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img1.png' %}" alt="">
+                    <img src="{% static 'assets/img/img1.png' %}" alt="">
                 </div>
             </div>
             <div class="col-md-6 content__item-text-wrapper">
@@ -106,14 +106,14 @@
             </div>
             <div class="col-md-6 content__item-image-wrapper">
                 <div class="content__item content__item-image">
-                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/new-screen.png' %}" alt="">
+                    <img src="{% static 'assets/img/new-screen.png' %}" alt="">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 content__item-image-wrapper">
                 <div class="content__item content__item-image">
-                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img3.png' %}" alt="">
+                    <img src="{% static 'assets/img/img3.png' %}" alt="">
                 </div>
             </div>
             <div class="col-md-6 content__item-text-wrapper">
@@ -136,7 +136,7 @@
             </div>
             <div class="col-md-6 content__item-image-wrapper">
                 <div class="content__item content__item-image">
-                    <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/img4.png' %}" alt="" class="no-margin">
+                    <img src="{% static 'assets/img/img4.png' %}" alt="" class="no-margin">
                 </div>
             </div>
         </div>
@@ -248,6 +248,6 @@
 
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
 
 </html>
