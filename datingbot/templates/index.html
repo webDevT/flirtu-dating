@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% trans 'Знакомства в Telegram' %}</title>
-    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}" as="style" />
-    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}" as="style" />
-    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}">
-    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}">
-    <link rel="shortcut icon" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/fav.ico' %}" type="image/x-icon">
+   <title> {% trans 'Знакомства в Telegram' %} {% block title %} {% endblock %} </title>
+    <link rel="prefetch" href="{% static 'assets/css/libs.min.css' %}" as="style" />
+    <link rel="prefetch" href="{% static 'assets/css/style.min.css' %}" as="style" />
+    <link rel="stylesheet" href="{% static 'assets/css/libs.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.min.css' %}">
+    <link rel="shortcut icon" href="{% static 'assets/img/fav.ico' %}" type="image/x-icon">
         <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -68,10 +68,12 @@
     <div class="header__text">
             {% trans '🔐 100% Бесплатно и Анонимно' %}
         </div>
-    <picture>
-        <source srcset="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/mob.svg' %}" media="(max-width: 480px)">
-        <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/bg-h.png' %}" alt="" class="header__line">
-    </picture>
+
+
+        <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/bg-h.png' %}" alt="" class="header__line header__line--desc">
+
+         <img src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/mob.svg' %}" alt="" class="header__line header__line--mob">
+  
 </header>
 
 
