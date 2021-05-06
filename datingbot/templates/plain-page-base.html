@@ -1,4 +1,4 @@
-{% load i18n static thumbnail %}
+{% load i18n cstatic thumbnail %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title> {% trans 'Знакомства в Telegram' %} {% block title %} {% endblock %} </title>
-    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}" as="style" />
-    <link rel="prefetch" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/style.min.css' %}" as="style" />
-    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/css/libs.min.css' %}">
+    <link rel="prefetch" href="{% static 'assets/css/libs.min.css' %}" as="style" />
+    <link rel="prefetch" href="{% static 'assets/css/style.min.css' %}" as="style" />
+    <link rel="stylesheet" href="{% static 'assets/css/libs.min.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/style.min.css' %}">
-    <link rel="shortcut icon" href="//d33tflfwlj5scn.cloudfront.net{% static 'assets/img/fav.ico' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'assets/img/fav.ico' %}" type="image/x-icon">
 </head>
 <body class="page">
 
@@ -28,7 +28,7 @@
 
 {% block scripts %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="//d33tflfwlj5scn.cloudfront.net{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
 {% endblock %}
 </body>
 
