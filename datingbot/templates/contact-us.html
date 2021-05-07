@@ -5,12 +5,13 @@
 
     <div class="template-content">
     <div class="container-fluid">
-        <h2 class="page-title">{% trans 'Связаться с нами' %}
+        <h2 class="page-title">{% trans 'Напишите нам' %}
 </h2>
 <div class="contact-us__form">
     <div class="contact-us__sub-title">
-      {% trans "У вас есть вопрос, идея или просто хотите поболтать? <br> Мы оставили наши контакты на странице ниже" %}
+      {% trans "У вас есть вопросы, идеи или просто хотите пообщаться? <br> Пожалуйста, заполните эту форму" %}
 </div>
+
     <form action="{% url "contact_us_send_mail" %}" method="POST">
         {% csrf_token %}
 
