@@ -1,0 +1,137 @@
+{% load i18n %}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+<!-- minified snippet to load TalkJS without delaying your page -->
+<script>
+(function(t,a,l,k,j,s){
+s=a.createElement('script');s.async=1;s.src="https://cdn.talkjs.com/talk.js";a.head.appendChild(s)
+;k=t.Promise;t.Talk={v:3,ready:{then:function(f){if(k)return new k(function(r,e){l.push([f,r,e])});l
+.push([f])},catch:function(){return k&&new k()},c:l}};})(window,document,[]);
+</script>
+
+<!-- container element in which TalkJS will display a chat UI -->
+<style>
+    {% if name %}
+    #talkjs-container {
+        width: 100%;
+        padding-top: 40px;
+        height: -moz-calc(100% - 40px);
+        height: -webkit-calc(100% - 40px);
+        height: calc(100% - 40px);
+    }
+    {% else %}
+    #talkjs-container {
+        width: 100%;
+        height: 100%;
+    }
+    {% endif %}
+</style>
+<div id="talkjs-container" style=""><i>Loading chat...</i></div>
+
+<!-- TalkJS initialization code, which we'll customize in the next steps -->
+<script>
+    var me, inbox;
+    var conv_id = "{% if 'conv' in request.GET %}{{ request.GET.conv }}{% endif %}";
+    var feed_filter = JSON.parse('{{ feed_filter|safe }}');
+    Talk.ready.then(function () {
+        me = new Talk.User("{{ user_id }}");
+        window.talkSession = new Talk.Session({
+            appId: "{{ talkjs_app_id }}",
+            me: me,
+            role: 'participant',
+            signature: "{{ user_identity }}"
+        });
+        window.talkSession.syncThemeForLocalDev("/media/talkjs.css");
+        inbox = talkSession.createInbox({feedFilter: feed_filter});
+        inbox.mount(document.getElementById("talkjs-container"));
+        if (conv_id) {
+            inbox.select(conv_id);
+        }
+        {#inbox.createHtmlPanel().show();#}
+    });
+</script>
+
+
+{% if name %}
+
+    <style>
+.prompt {
+	background: #0f235e;
+	position: fixed;
+	width: 85%;
+	top: 5px;
+	border-radius: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #fff;
+	padding: 8px 5px;
+	display: none;
+	font-size: 14px;
+    font-family: Montserrat, sans-sefir
+
+}
+.close-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+
+
+}
+.close {
+	top: 0;
+	right: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+
+}
+.close div {
+	height: 1px;
+	width: 15px;
+	background: #FFF;
+	display: block;
+	margin-bottom: 3px
+}
+.close div:first-child {
+	transform: rotate(-45deg);
+	position: relative;
+	top: 9.5px;
+	left: 2px;
+}
+
+.close div:last-child {
+	transform: rotate(45deg);
+	position: relative;
+	top: 5.5px;
+	left: 2px;
+}
+</style>
+<div class="prompt">
+
+    {% blocktrans %}Вы общаетесь как {{ name }}{% endblocktrans %}
+	<div class="close-wrapper">
+		<div class="close">
+		<div></div>
+		<div></div>
+	</div>
+	</div>
+
+</div>
+{% endif %}
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+setTimeout(function () {
+$('.prompt').fadeIn(500)
+}, 1000);
+	$('.close-wrapper').click(function(){
+	$('.prompt').fadeOut(500)
+	})
+</script>

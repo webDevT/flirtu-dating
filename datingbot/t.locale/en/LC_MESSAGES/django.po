@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-07 21:29+0300\n"
+"POT-Creation-Date: 2021-05-10 22:28+0300\n"
 "PO-Revision-Date: 2021-05-07 21:31+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,6 +16,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.3\n"
+
+#: .\_user\templates\chat.html:117
+#, python-format
+msgid "Вы общаетесь как %(name)s"
+msgstr "You are logged in as %(name)s"
+
+#: .\templates\admin\_user_change_list_template.html:31
+#: .\templates\admin\story_change_list_template.html:31
+msgid "Home"
+msgstr ""
+
+#: .\templates\admin\_user_change_list_template.html:49
+#: .\templates\admin\story_change_list_template.html:49
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\templates\admin\_user_change_list_template.html:58
+#: .\templates\admin\story_change_list_template.html:58
+msgid "Please correct the error below."
+msgstr ""
+
+#: .\templates\admin\_user_change_list_template.html:58
+#: .\templates\admin\story_change_list_template.html:58
+msgid "Please correct the errors below."
+msgstr ""
+
+#: .\templates\admin\_user_change_list_template.html:73
+#: .\templates\admin\story_change_list_template.html:73
+msgid "Filter"
+msgstr ""
 
 #: .\templates\contact-us.html:3
 msgid "Связаться с нами"
@@ -106,7 +137,18 @@ msgstr "Customer Support"
 msgid "Регистрация"
 msgstr "Sign up"
 
-#: .\templates\index.html:8 .\templates\plain-page-base.html.py:8
+#: .\templates\index.html:8 .\templates\payment-cancel.html.py:8
+#: .\templates\payment-cancel.html:19 .\templates\payment-success.html.py:8
+#: .\templates\payment-success.html:36
+#: .\templates\payment-vip-trial-not-supported.html:8
+#: .\templates\payment-vip-trial-not-supported.html:19
+#: .\templates\plain-page-base.html:8 .\templates\premium-plan-fortumo.html:9
+#: .\templates\premium-plan-fortumo.html:32
+#: .\templates\premium-plan-with-trial.html:9
+#: .\templates\premium-plan-with-trial.html:31 .\templates\premium-plan.html:9
+#: .\templates\premium-plan.html.py:22 .\templates\premium.html:9
+#: .\templates\premium.html.py:31 .\templates\unitpay-paying-form.html:8
+#: .\templates\unitpay-paying-form.html:21
 msgid "Знакомства в Telegram"
 msgstr "Telegram Dating"
 
@@ -145,8 +187,8 @@ msgstr "Communicate"
 
 #: .\templates\index.html:103
 msgid ""
-"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента "
-"можно переходить в приватную беседу!"
+"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого "
+"момента можно переходить в приватную беседу!"
 msgstr ""
 "With mutual sympathy, COINCIDENCE will occur! This means that from this "
 "moment you can go to private conversation!"
@@ -160,7 +202,8 @@ msgid ""
 "Flirtu не показывает вашего точного местоположения, но помогает вам завести "
 "новые знакомства с людьми поблизости."
 msgstr ""
-"Flirtu does not show your exact location, but it helps you meet people nearby."
+"Flirtu does not show your exact location, but it helps you meet people "
+"nearby."
 
 #: .\templates\index.html:132
 msgid "Знакомства по Интересам"
@@ -168,8 +211,8 @@ msgstr "Dating by Interest"
 
 #: .\templates\index.html:134
 msgid ""
-"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс "
-"познакомиться с кем-то, кто разделяет ваши интересы."
+"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше "
+"шанс познакомиться с кем-то, кто разделяет ваши интересы."
 msgstr ""
 "The more interests you list, the more people will notice you and the higher "
 "the chance of meeting someone who shares your interests."
@@ -206,9 +249,9 @@ msgid ""
 "конфиденциальности, вход в систему или заполнение форм."
 msgstr ""
 "These cookies are necessary for the website to function and can not be "
-"switched off in our systems. They are usually only set in response to actions "
-"made by you which amount to a request for services, such as setting your "
-"privacy preferences, logging in, or filling in forms."
+"switched off in our systems. They are usually only set in response to "
+"actions made by you which amount to a request for services, such as setting "
+"your privacy preferences, logging in, or filling in forms."
 
 #: .\templates\index.html:207
 msgid "Предпочтительные"
@@ -216,9 +259,9 @@ msgstr "Preferences"
 
 #: .\templates\index.html:211
 msgid ""
-"Эти файлы cookie позволяют веб-сайту предоставлять расширенные функциональные "
-"возможности и персонализацию. Они могут быть установлены нами или сторонними "
-"поставщиками, услуги которых мы добавили на наши страницы."
+"Эти файлы cookie позволяют веб-сайту предоставлять расширенные "
+"функциональные возможности и персонализацию. Они могут быть установлены нами "
+"или сторонними поставщиками, услуги которых мы добавили на наши страницы."
 msgstr ""
 "These cookies enable the website to provide enhanced functionality and "
 "personalization. They may be set by us or third-party providers whose "
@@ -246,8 +289,8 @@ msgstr "Marketing"
 #: .\templates\index.html:235
 msgid ""
 "Эти файлы cookie могут быть установлены нашими рекламными партнерами. Они "
-"могут использовать файлы cookie для создания профиля ваших интересов и показа "
-"релевантной рекламы на других сайтах."
+"могут использовать файлы cookie для создания профиля ваших интересов и "
+"показа релевантной рекламы на других сайтах."
 msgstr ""
 "These cookies may be set by our advertising partners. They may use the "
 "cookies to build a profile of your interests and show relevant adverts on "
@@ -256,6 +299,132 @@ msgstr ""
 #: .\templates\index.html:239
 msgid "Сохранить"
 msgstr "Save"
+
+#: .\templates\payment-cancel.html:35
+msgid "Вы отменили процесс оплаты."
+msgstr "Payment was canceled."
+
+#: .\templates\payment-cancel.html:38 .\templates\payment-success.html.py:55
+#: .\templates\payment-vip-trial-not-supported.html:38
+msgid "Пожалуйста, вернитесь в приложение Telegram."
+msgstr "Please return to the Flirtu."
+
+#: .\templates\payment-cancel.html:48 .\templates\payment-success.html.py:65
+#: .\templates\payment-vip-trial-not-supported.html:48
+msgid "Открыть в Telegram"
+msgstr "Open Telegram"
+
+#: .\templates\payment-success.html:49
+msgid "🥳 Спасибо за покупку! 🎉"
+msgstr "🥳 Congratulations! 🎉"
+
+#: .\templates\payment-success.html:52
+msgid "Поздравляем, ваша покупка успешно совершена."
+msgstr "Your payment was processed successfully. 🎉"
+
+#: .\templates\payment-vip-trial-not-supported.html:35
+msgid "Бесплатный VIP доступ не доступен."
+msgstr ""
+
+#: .\templates\premium-plan-fortumo.html:46 .\templates\premium.html.py:45
+msgid "Уникальное предложение!"
+msgstr "Limited sale!"
+
+#: .\templates\premium-plan-fortumo.html:49 .\templates\premium.html.py:48
+msgid "Активируйте VIP и Экономьте Деньги"
+msgstr "Save you money while activating VIP"
+
+#: .\templates\premium-plan-fortumo.html:53
+#: .\templates\premium-plan-with-trial.html:52 .\templates\premium.html:52
+msgid "С VIP статусом вы получите:"
+msgstr "With VIP you will get:"
+
+#: .\templates\premium-plan-fortumo.html:56
+#: .\templates\premium-plan-with-trial.html:55 .\templates\premium.html:55
+msgid "✅ Доступ к разделу \"Вы понравились\""
+msgstr "✅ See who likes you"
+
+#: .\templates\premium-plan-fortumo.html:57
+#: .\templates\premium-plan-with-trial.html:56 .\templates\premium.html:56
+msgid "✅ Безлимитный просмотр кандидатур"
+msgstr "✅ Unlimited access to all profiles"
+
+#: .\templates\premium-plan-fortumo.html:58
+#: .\templates\premium-plan-with-trial.html:57 .\templates\premium.html:57
+msgid "✅ Доступ к фильтрам раздела “Stories”"
+msgstr "✅ Access to “Stories” filters"
+
+#: .\templates\premium-plan-fortumo.html:59
+#: .\templates\premium-plan-with-trial.html:58 .\templates\premium.html:58
+msgid "✅ Больше взаимных симпатий"
+msgstr "✅ Get matches faster"
+
+#: .\templates\premium-plan-fortumo.html:60
+msgid "✅ + 1,000 монет"
+msgstr "✅ + 1,000 coins"
+
+#: .\templates\premium-plan-fortumo.html:61
+#: .\templates\premium-plan-with-trial.html:60 .\templates\premium.html:60
+msgid "✅ Персональная тех. поддержка"
+msgstr "✅ Personal support"
+
+#: .\templates\premium-plan-fortumo.html:62
+#: .\templates\premium-plan-with-trial.html:61 .\templates\premium.html:61
+msgid "✅ Без рекламы"
+msgstr "✅ No ads"
+
+#: .\templates\premium-plan-fortumo.html:69
+#: .\templates\premium-plan-with-trial.html:68 .\templates\premium.html:65
+msgid "👉 ПОЛУЧИТЬ VIP 👈"
+msgstr "👉 GET VIP 👈"
+
+#: .\templates\premium-plan-with-trial.html:45
+msgid "VIP на 3 дня"
+msgstr ""
+
+#: .\templates\premium-plan-with-trial.html:48
+#, fuzzy, python-format
+#| msgid "🔐 100%% Бесплатно и Анонимно"
+msgid "100%% Бесплатно!"
+msgstr "🔐 100%% Free and Anonymously"
+
+#: .\templates\premium-plan-with-trial.html:59 .\templates\premium.html:59
+msgid "✅ + 1,000 монет каждый месяц"
+msgstr "✅ + 1,000 coins each month"
+
+#: .\templates\premium-plan.html:38
+msgid "VIP статус"
+msgstr "VIP"
+
+#: .\templates\premium-plan.html:48 .\templates\premium-plan.html.py:68
+#: .\templates\premium-plan.html:88
+msgid "мес."
+msgstr "month"
+
+#: .\templates\premium-plan.html:55
+msgid "6 месяцев"
+msgstr "6 months"
+
+#: .\templates\premium-plan.html:58
+msgid "Лучшая цена"
+msgstr "Best price"
+
+#: .\templates\premium-plan.html:61 .\templates\premium-plan.html.py:81
+#: .\templates\premium-plan.html:101
+msgid "Общая сумма"
+msgstr "Total"
+
+#: .\templates\premium-plan.html:75
+msgid "3 месяца"
+msgstr "3 months"
+
+#: .\templates\premium-plan.html:95
+msgid "1 месяц"
+msgstr "1 month"
+
+#: .\templates\premium-plan.html:112 .\templates\premium-plan.html.py:118
+msgid "👉 ДАЛЕЕ 👈"
+msgstr "👉 NEXT 👈"
 
 #: .\templates\translates.html:3
 msgid "👑 VIP статус"
@@ -287,7 +456,8 @@ msgid ""
 "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 "начните общение прямо сейчас!"
 msgstr ""
-"🎉 {name} liked you. Open the “Likes you” section and start chatting right now!"
+"🎉 {name} liked you. Open the “Likes you” section and start chatting right "
+"now!"
 
 #: .\templates\translates.html:15
 msgid ""
@@ -300,90 +470,12 @@ msgstr ""
 msgid "💌 У вас есть непрочитанные сообщения!"
 msgstr "💌 You have unread messages!"
 
-#, python-format
-#~ msgid "Вы общаетесь как %(name)s"
-#~ msgstr "You are logged in as %(name)s"
+#: .\templates\unitpay-paying-form.html:33
+msgid "Сейчас вы будете направлены на страницу оплаты."
+msgstr "Now you will be redirected to the payment process."
 
 #~ msgid "Настройки Cookie"
 #~ msgstr "Cookie Settings"
-
-#~ msgid "Вы отменили процесс оплаты."
-#~ msgstr "Payment was canceled."
-
-#~ msgid "Пожалуйста, вернитесь в приложение Telegram."
-#~ msgstr "Please return to the Flirtu."
-
-#~ msgid "Открыть в Telegram"
-#~ msgstr "Open Telegram"
-
-#~ msgid "🥳 Спасибо за покупку! 🎉"
-#~ msgstr "🥳 Congratulations! 🎉"
-
-#~ msgid "Поздравляем, ваша покупка успешно совершена."
-#~ msgstr "Your payment was processed successfully. 🎉"
-
-#~ msgid "Уникальное предложение!"
-#~ msgstr "Limited sale!"
-
-#~ msgid "Активируйте VIP и Экономьте Деньги"
-#~ msgstr "Save you money while activating VIP"
-
-#~ msgid "С VIP статусом вы получите:"
-#~ msgstr "With VIP you will get:"
-
-#~ msgid "✅ Доступ к разделу \"Вы понравились\""
-#~ msgstr "✅ See who likes you"
-
-#~ msgid "✅ Безлимитный просмотр кандидатур"
-#~ msgstr "✅ Unlimited access to all profiles"
-
-#~ msgid "✅ Доступ к фильтрам раздела “Stories”"
-#~ msgstr "✅ Access to “Stories” filters"
-
-#~ msgid "✅ Больше взаимных симпатий"
-#~ msgstr "✅ Get matches faster"
-
-#~ msgid "✅ + 1,000 монет"
-#~ msgstr "✅ + 1,000 coins"
-
-#~ msgid "✅ Персональная тех. поддержка"
-#~ msgstr "✅ Personal support"
-
-#~ msgid "✅ Без рекламы"
-#~ msgstr "✅ No ads"
-
-#~ msgid "👉 ПОЛУЧИТЬ VIP 👈"
-#~ msgstr "👉 GET VIP 👈"
-
-#~ msgid "✅ + 1,000 монет каждый месяц"
-#~ msgstr "✅ + 1,000 coins each month"
-
-#~ msgid "VIP статус"
-#~ msgstr "VIP"
-
-#~ msgid "мес."
-#~ msgstr "month"
-
-#~ msgid "6 месяцев"
-#~ msgstr "6 months"
-
-#~ msgid "Лучшая цена"
-#~ msgstr "Best price"
-
-#~ msgid "Общая сумма"
-#~ msgstr "Total"
-
-#~ msgid "3 месяца"
-#~ msgstr "3 months"
-
-#~ msgid "1 месяц"
-#~ msgstr "1 month"
-
-#~ msgid "👉 ДАЛЕЕ 👈"
-#~ msgstr "👉 NEXT 👈"
-
-#~ msgid "Сейчас вы будете направлены на страницу оплаты."
-#~ msgstr "Now you will be redirected to the payment process."
 
 #~ msgid "Отправить"
 #~ msgstr "SEND"
@@ -542,8 +634,8 @@ msgstr "💌 You have unread messages!"
 #~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 #~| "начните общение прямо сейчас!"
 #~ msgid ""
-#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо сейчас. "
-#~ "Откройте раздел “Вы понравились”"
+#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо "
+#~ "сейчас. Откройте раздел “Вы понравились”"
 #~ msgstr ""
 #~ "🎉 {name} liked you. Open the “Likes you” section and start chatting right "
 #~ "now!"

@@ -1,0 +1,130 @@
+{% load i18n static thumbnail %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans 'Знакомства в Telegram' %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets-premium/css/libs.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets-premium/css/style.min.css' %}">
+</head>
+
+<body>
+    <!-- -----------start header------------ -->
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="{% static 'assets-premium/img/logo.svg' %}" alt="">
+                    <h1>{% trans 'Знакомства в Telegram' %}</h1>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------end header------------- -->
+
+    <!-- --------------start content----------- -->
+    <div class="content wrapper">
+        <div class="container">
+            <div class="content__header">
+
+                <img src="{% static 'assets-premium/img/start.svg' %}" alt="">
+                <div class="content__header-text">
+                    {% trans 'VIP статус' %}
+                </div>
+
+            </div>
+
+            <div class="items-list rate">
+
+                <div class="item item--green">
+                    <div class="item__content">
+                        <div class="item__price">
+                            {{ prices.2.1 }} {{ currency_sign}}/{% trans 'мес.' %}
+                        </div>
+                        <div class="item__content-footer">
+                            <div class="old-price">
+                                {{ prices.2.2 }}{{ currency_sign}}
+                            </div>
+                            <div class="term">
+                                {% trans '6 месяцев' %}
+                            </div>
+                        </div>
+                        <div class="action best-price">{% trans 'Лучшая цена' %}</div>
+                    </div>
+                    <div class="item__footer">
+                        {% trans 'Общая сумма' %}: {{ prices.2.0 }} {{ currency_sign}}
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__content">
+                        <div class="item__price">
+                            {{ prices.1.1 }} {{ currency_sign}}/{% trans 'мес.' %}
+                        </div>
+                        <div class="item__content-footer">
+                            <div class="old-price">
+                                {{ prices.1.2 }} {{ currency_sign}}
+                            </div>
+                            <div class="term">
+                                {% trans '3 месяца' %}
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item__footer">
+                        {% trans 'Общая сумма' %}: {{ prices.1.0 }} {{ currency_sign}}
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__content ">
+                        <div class="item__price">
+                           {{ prices.0.0 }} {{ currency_sign}}/{% trans 'мес.' %}
+                        </div>
+                        <div class="item__content-footer">
+                            <div class="old-price">
+                                {{ prices.0.1 }} {{ currency_sign}}
+                            </div>
+                            <div class="term">
+                                {% trans '1 месяц' %}
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item__footer">
+                        {% trans 'Общая сумма' %}: {{ prices.0.0 }} {{ currency_sign}}
+                    </div>
+                </div>
+            </div>
+
+            <div class="next-button-wrapper">
+                <form action="." method="POST" id="plan-select-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="plan" value="3">
+                    <noscript>
+                        <div class="button">
+                        <a href="#"><button>{% trans '👉 ДАЛЕЕ 👈' %}</button></a>
+                        </div>
+                    </noscript>
+                </form>
+
+            <div class="button">
+                <a href="javascript://" onclick="$('#plan-select-form').submit();"><b>{% trans '👉 ДАЛЕЕ 👈' %}</b></a>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------end content----------- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{% static 'assets-premium/js/libs.min.js' %}"></script>
+    <script src="{% static 'assets-premium/js/main.js' %}"></script>
+</body>
+
+</html>

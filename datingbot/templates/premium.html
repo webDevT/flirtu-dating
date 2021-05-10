@@ -1,0 +1,75 @@
+{% load i18n static thumbnail %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans 'Знакомства в Telegram' %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets-premium/css/libs.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets-premium/css/style.min.css' %}">
+    <style>
+        .premium__list {
+            padding-left: 10px;
+        }
+        .premium__list li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ---------start header------------->
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="{% static 'assets-premium/img/logo.svg' %}" alt="">
+                    <h1>{% trans 'Знакомства в Telegram' %}</h1>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------end header---------- -->
+
+    <!-- ---------------start content------------ -->
+    <div class="content premium-wrapper">
+        <div class="container">
+
+            <h2>
+			{% trans 'Уникальное предложение!' %}
+		</h2>
+            <div class="sub-title">
+                {% trans 'Активируйте VIP и Экономьте Деньги' %}
+            </div>
+
+            <div class="list-title">
+                {% trans 'С VIP статусом вы получите:' %}
+            </div>
+            <ul class="premium__list">
+                <li>{% trans '✅ Доступ к разделу "Вы понравились"' %}</li>
+                <li>{% trans '✅ Безлимитный просмотр кандидатур' %}</li>
+                <li>{% trans '✅ Доступ к фильтрам раздела “Stories”' %}</li>
+                <li>{% trans '✅ Больше взаимных симпатий' %}</li>
+                <li>{% trans '✅ + 1,000 монет каждый месяц' %}</li>
+                <li>{% trans '✅ Персональная тех. поддержка' %}</li>
+                <li>{% trans '✅ Без рекламы' %}</li>
+            </ul>
+            <div class="next-button-wrapper">
+                <div class="button">
+                <a href="?next"><b>{% trans '👉 ПОЛУЧИТЬ VIP 👈' %}</b></a>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------end content------------ -->
+
+</body>
+
+</html>
