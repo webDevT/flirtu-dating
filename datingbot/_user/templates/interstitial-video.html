@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Знакомства в Telegram</title>
+	<link rel="stylesheet" href="{% static 'interstitials/video/css/style.min.css' %}">
+</head>
+<body>
+<div class="video-wrapper">
+	{{ interstitial.1|safe }}
+</div>
+<div class="content">
+<div class="text-wrapper">
+	{{ interstitial.2|safe|linebreaksbr }}
+
+
+</div>
+<div class="button-wrapper">
+	<img src="{% static 'interstitials/video/img/heart5.png' %}" alt="" class="heart5">
+	<img src="{% static 'interstitials/video/img/heart4.png' %}" alt="" class="heart4">
+	 <a href="{{ url }}" class="button">
+       {{ interstitial.3 }}
+  </a>
+</div>
+</div>
+<div class="footer">
+	<img src="{% static 'interstitials/video/img/footer-bg.png' %}" alt="" class="footer-bg">
+	<div class="counter" id="counter-message">
+		Чат откроется через
+		<span class="counter__val" id="countdown">15</span>
+		секунд
+	</div>
+    <noscript>
+        <div class="counter">
+            Подождите 15 секунд и обновите страницу
+        </div>
+    </noscript>
+    <script>
+        var counter = 15;
+        var interval_handle = setInterval(function () {
+
+            counter --;
+            document.getElementById('countdown').textContent = counter;
+            if (!counter) {
+                clearInterval(interval_handle);
+                document.getElementById('chat-enter').classList.add('active');
+                document.getElementById('chat-enter').href = '';
+                document.getElementById('counter-message').remove();
+            }
+        }, 1000);
+    </script>
+	<div class="footer-button__wrapper">
+		<a href="javascript://" class="footer__button" id="chat-enter">
+            Открыть чат
+        </a>
+	</div>
+</div>
+
+
+<script src="{% static 'interstitials/video/js/main.js' %}"></script>
+</body>
+</html>
