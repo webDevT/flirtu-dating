@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Checkout</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+        var stripe = Stripe('{{ STRIPE_PUB_KEY }}');
+    </script>
+</head>
+<body>
+<script>
+stripe.redirectToCheckout({
+  sessionId: '{{ CHECKOUT_SESSION_ID }}'
+}).then(function (result) {
+});
+</script>
+</body>
+</html>

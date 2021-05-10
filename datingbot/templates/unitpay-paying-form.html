@@ -1,0 +1,95 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans 'Знакомства в Telegram' %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{% static "web-payments/css/libs.min.css" %}">
+    <link rel="stylesheet" href="{% static "web-payments/css/style.min.css" %}">
+</head>
+<body>
+<!-- ----------start header----------- -->
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="{% static "web-payments/img/logo.svg" %}" alt="">
+                <h1>{% trans 'Знакомства в Telegram' %}</h1>
+
+            </a>
+        </div>
+    </div>
+</div>
+<!-- -----------end header------------- -->
+
+<!-- --------------start content------------ -->
+<div class="content premium-wrapper success-wrapper">
+    <div class="container">
+        <div class="sub-title te">
+            {% trans 'Сейчас вы будете направлены на страницу оплаты.' %}
+        </div>
+        <noscript>
+            <div class="sub-title text-wrapper">
+                Нажмите Продолжить
+            </div>
+        </noscript>
+
+
+    </div>
+
+</div>
+<form id="payform" action="https://unitpay.ru/pay/233951-c32f9">
+    <input type="hidden" name="account" value="{{ account }}">
+    <input type="hidden" name="sum" value="{{ sum }}">
+    <input type="hidden" name="desc" value="{{ desc }}">
+    <input type="hidden" name="signature" value="{{ signature }}">
+    <input type="hidden" name="currency" value="{{ currency }}">
+    <input type="hidden" name="backUrl" value="https://{{ domain }}{% url 'payment_cancel' %}">
+
+    <noscript>
+        <div class="next-button-wrapper">
+            <div class="button button--blue">
+                <div class="button button--blue">
+                    <button type="submit">Продолжить</button>
+                </div>
+
+            </div>
+        </div>
+        <style>
+            button {
+                background: -o-linear-gradient(43.81deg, #39D8F2 0%, #157BD3 99.28%);
+                background: linear-gradient(46.19deg, #39D8F2 0%, #157BD3 99.28%);
+                border-radius: 70px;
+                font-size: 18px;
+            }
+
+            button {
+                width: 100%;
+            {#background: #49c778;#} color: #fff;
+            {#border-radius: 10px;#} text-align: center;
+                display: block;
+                padding: 20px 10px;
+                font-size: 14px;
+            }
+
+            {#button {#}
+            {#    color: #007bff;#}
+            {#    text-decoration: none;#}
+            {#    background-color: transparent;#}
+            {#    -webkit-text-decoration-skip: objects;#}
+            {
+            #}#}
+        </style>
+    </noscript>
+</form>
+<script>
+    document.getElementById('payform').submit();
+</script>
+
+<!-- --------------end content----------- -->
+</body>
+</html>

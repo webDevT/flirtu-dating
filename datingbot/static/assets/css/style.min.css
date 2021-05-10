@@ -35,8 +35,8 @@ ul {
     font-size: 22px;
 }
 .header {
-    background: -o-linear-gradient(207.06deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%);
-    background: linear-gradient(242.94deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%);
+    background: -o-linear-gradient(207.06deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%), url("../img/i1.jpeg");
+    background: linear-gradient(242.94deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%), url("../img/i1.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%;
@@ -61,12 +61,12 @@ ul {
     height: 100%;
     min-height: 100%;
     /*min-height: 886px;*/
-    background-repeat: no-repeat;
+ /*   background-repeat: no-repeat;
     background: url("../img/i1.jpeg");
     background-size: 100%;
     background-position: top center;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     overflow: hidden;
 }
 .slider .items_slider img {
@@ -192,6 +192,7 @@ h2 {
     max-width: 496px;
     margin-top: 20px;
     font-weight: 300;
+    font-size: 26px;
 }
 .content__item-text {
     padding-left: 50px;
@@ -937,6 +938,7 @@ h2 br {
         max-width: 98vw;
         width: 98vw;
     }
+   
 }
 @media only screen and (max-width: 1500px) {
     h1 {
@@ -951,6 +953,7 @@ h2 br {
     .footer__template-page .footer__bottom {
         width: 90%;
     }
+     
 }
 @media only screen and (max-width: 1440px) {
     .header {
@@ -1002,6 +1005,10 @@ h2 br {
     .footer__bottom {
         font-size: 1.2vw;
     }
+     .content__text {
+        font-size: 24px;
+    }
+
 }
 @media only screen and (max-width: 1366px) {
     .header__logo img {

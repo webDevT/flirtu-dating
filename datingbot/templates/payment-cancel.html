@@ -1,0 +1,55 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{% trans 'Знакомства в Telegram' %}</title>
+    <link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static "web-payments/css/libs.min.css" %}">
+	<link rel="stylesheet" href="//d33tflfwlj5scn.cloudfront.net{% static "web-payments/css/style.min.css" %}">
+</head>
+<body>
+<!-- ----------start header----------- -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+		<a href="#">
+			<img src="//d33tflfwlj5scn.cloudfront.net{% static "web-payments/img/logo.svg" %}" alt="">
+			<h1>{% trans 'Знакомства в Telegram' %}</h1>
+
+		</a>
+	</div>
+	</div>
+</div>
+<!-- -----------end header------------- -->
+
+<!-- --------------start content------------ -->
+<div class="content premium-wrapper success-wrapper">
+	<div class="container">
+
+		<h2>
+			☹️
+		</h2>
+		<div class="sub-title te">
+		{% trans 'Вы отменили процесс оплаты.' %}
+		</div>
+		<div class="sub-title text-wrapper">
+			{% trans 'Пожалуйста, вернитесь в приложение Telegram.' %}
+		</div>
+
+
+	</div>
+	
+</div>
+
+<div class="next-button-wrapper">
+	<div class="button button--blue">
+            <a href="https://telegram.me/Flirtu_bot">{% trans 'Открыть в Telegram' %}</a>
+
+        </div>
+</div>
+
+<!-- --------------end content----------- -->
+</body>
+</html>
