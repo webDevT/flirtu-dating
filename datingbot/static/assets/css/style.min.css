@@ -192,7 +192,7 @@ h2 {
     max-width: 496px;
     margin-top: 20px;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 22px;
 }
 .content__item-text {
     padding-left: 50px;
@@ -1006,7 +1006,7 @@ h2 br {
         font-size: 1.2vw;
     }
      .content__text {
-        font-size: 24px;
+        font-size: 22px;
     }
 
 }
