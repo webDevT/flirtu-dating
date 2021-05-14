@@ -599,7 +599,7 @@ h2 {
     margin-bottom: 30px;
 }
 .contact-us__form {
-    width: 670px;
+    width: 700px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -923,6 +923,7 @@ h2 br {
     -ms-flex-align: end;
     align-items: flex-end;
 }
+
 @media only screen and (max-width: 1700px) {
     h1 {
         margin-bottom: 49px;
@@ -1264,6 +1265,9 @@ h2 br {
     }
      .header h1 {
         font-size: 2.6vw;
+    }
+    .contact-us__sub-title {
+        font-size: 20px;
     }
 }
 
@@ -1642,6 +1646,9 @@ h2 br {
     .footer .button a {
         font-size: 18px;
     }
+    .contact-us__sub-title {
+        font-size: 3.2vw;
+    }
 }
 @media only screen and (max-width: 550px) {
     .footer {
@@ -1961,7 +1968,7 @@ h2 br {
         margin-left: 1.5vw;
     }
       h2 {
-        font-size: 7.500vw;
+        font-size: 7.000vw;
         text-align: center;
     }
     .content__text {
@@ -1973,7 +1980,7 @@ h2 br {
         padding-top: 0;
     }
     .contact-us__sub-title {
-        font-size: 16px;
+        font-size: 4.8vw;
     }
     .form-row {
         margin-bottom: 20px;
