@@ -180,7 +180,7 @@ ul {
 }
 h2 {
     text-align: left;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 58px;
     color: #333333;
     font-weight: 800;
@@ -1009,6 +1009,9 @@ h2 br {
      .content__text {
         font-size: 22px;
     }
+    h2 {
+        font-size: 43px;
+    }
 
 }
 @media only screen and (max-width: 1366px) {
@@ -1039,6 +1042,9 @@ h2 br {
     }
     .header h1 {
         font-size: 1.979vw;
+    }
+     h2 {
+        font-size: 38px;
     }
 }
 @media only screen and (max-width: 1280px) {
@@ -1111,7 +1117,7 @@ h2 br {
 
     }
     h2 {
-        font-size: 42px;
+        font-size: 32px;
         line-height: 1.2;
     }
 }
@@ -1171,7 +1177,6 @@ h2 br {
 }
 @media only screen and (max-width: 992px) {
     h2 {
-        font-size: 24px;
         line-height: 1.2;
     }
     .items_slider {
@@ -1258,7 +1263,7 @@ h2 br {
         font-size: 20px;
     }
     h2 {
-        font-size: 4vw;
+        font-size: 3.3vw;
     }
     .content__item-text {
         padding-left: 2vw;

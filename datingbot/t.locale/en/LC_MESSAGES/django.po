@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 17:58+0300\n"
-"PO-Revision-Date: 2021-05-14 18:00+0300\n"
+"PO-Revision-Date: 2021-05-14 22:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -61,8 +61,8 @@ msgid ""
 "У вас есть вопросы, идеи или просто хотите пообщаться? <br> Пожалуйста, "
 "заполните эту форму"
 msgstr ""
-"Do you have any questions, ideas, or just feel like chatting? <br> Then "
-"please fill out the form below"
+"Do you have any questions, ideas, or just feel like chatting? <br> Then please "
+"fill out the form below"
 
 #: .\templates\contact-us.html:19
 msgid "Ваше Имя"
@@ -168,7 +168,7 @@ msgstr ""
 #: .\templates\index.html:69
 #, python-format
 msgid "🔐 100%% Бесплатно и Анонимно"
-msgstr "🔐 100% Free and Safe"
+msgstr "🔐 100%% Free and Safe"
 
 #: .\templates\index.html:91
 msgid "Выбирайте"
@@ -265,8 +265,8 @@ msgid ""
 "поставщиками, услуги которых мы добавили на наши страницы."
 msgstr ""
 "These cookies enable the website to provide enhanced functionality and "
-"personalization. They may be set by us or third-party providers whose "
-"services we have added to our pages."
+"personalization. They may be set by us or third-party providers whose services "
+"we have added to our pages."
 
 #: .\templates\index.html:219
 msgid "Статистика"
@@ -293,9 +293,8 @@ msgid ""
 "могут использовать файлы cookie для создания профиля ваших интересов и показа "
 "релевантной рекламы на других сайтах."
 msgstr ""
-"These cookies may be set by our advertising partners. They may use the "
-"cookies to build a profile of your interests and show relevant adverts on "
-"other sites."
+"These cookies may be set by our advertising partners. They may use the cookies "
+"to build a profile of your interests and show relevant adverts on other sites."
 
 #: .\templates\index.html:239
 msgid "Сохранить"
@@ -438,8 +437,8 @@ msgid ""
 "\n"
 "👇 Нажмите на скрепку 📎 и прикрепите фото"
 msgstr ""
-"Your photo has been rejected. Please upload a new photo or take a selfie "
-"right now!!\n"
+"Your photo has been rejected. Please upload a new photo or take a selfie right "
+"now!!\n"
 "\n"
 "👇 Press sketch 📎 and select photo"
 
@@ -460,11 +459,9 @@ msgstr ""
 "🎉 {name} liked you. Open the “Likes you” section and start chatting right now!"
 
 #: .\templates\translates.html:15
-msgid ""
-"🎁 Подарок от Flirtu! Мы активировал вам VIP доступ бесплатно на 3 месяца!"
+msgid "🎁 Подарок от Flirtu! Мы активировал вам VIP доступ бесплатно на 3 месяца!"
 msgstr ""
-"🎁 You've received gift from Flirtu. Free VIP access was activated for 3 "
-"months!"
+"🎁 You've received gift from Flirtu. Free VIP access was activated for 3 months!"
 
 #: .\templates\translates.html:17
 msgid "💌 У вас есть непрочитанные сообщения!"
