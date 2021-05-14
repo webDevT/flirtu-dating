@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 00:16+0300\n"
-"PO-Revision-Date: 2021-05-07 21:31+0300\n"
+"POT-Creation-Date: 2021-05-14 17:58+0300\n"
+"PO-Revision-Date: 2021-05-14 18:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -54,15 +54,15 @@ msgstr "Contact us"
 
 #: .\templates\contact-us.html:8
 msgid "Напишите нам"
-msgstr "Write to us"
+msgstr "Write Us!"
 
 #: .\templates\contact-us.html:12
 msgid ""
 "У вас есть вопросы, идеи или просто хотите пообщаться? <br> Пожалуйста, "
 "заполните эту форму"
 msgstr ""
-"Do you have questions, ideas or just want to chat? <br> Please fill out this "
-"form"
+"Do you have any questions, ideas, or just feel like chatting? <br> Then "
+"please fill out the form below"
 
 #: .\templates\contact-us.html:19
 msgid "Ваше Имя"
@@ -90,15 +90,15 @@ msgstr "SEND"
 
 #: .\templates\footer.html:7
 msgid "Присоединяйтесь прямо сейчас"
-msgstr "Join Now"
+msgstr "Try it out right now!"
 
 #: .\templates\footer.html:10
 msgid "Станьте частью крупнейшей в мире социальной сети для новых знакомств!"
-msgstr "Become a part of the world's largest social networking site!"
+msgstr "Become a part of the world’s biggest network for meeting new people!"
 
 #: .\templates\footer.html:13 .\templates\index.html.py:66
 msgid "Начать знакомиться в Telegram"
-msgstr "Open in Telegram"
+msgstr "Start Dating on Telegram"
 
 #: .\templates\footer.html:21
 msgid "Политика конфиденциальности"
@@ -154,7 +154,7 @@ msgstr "Telegram Dating"
 
 #: .\templates\index.html:60
 msgid "Знакомства внутри Telegram Messenger"
-msgstr "Dating in Telegram Messenger"
+msgstr "Dating on Telegram Messenger"
 
 #: .\templates\index.html:62
 msgid ""
@@ -162,60 +162,61 @@ msgid ""
 "и при взаимной симпатии - общайтесь <br>\n"
 "напрямую прямо в Telegram."
 msgstr ""
-"Rate photos of people near you <br>\n"
-"and with mutual sympathy - communicate <br>\n"
-"directly directly to Telegram."
+"Check out the photos of people close to you <br> and chat one-on-one right in "
+"Telegram."
 
 #: .\templates\index.html:69
 #, python-format
 msgid "🔐 100%% Бесплатно и Анонимно"
-msgstr "🔐 100%% Free and Anonymously"
+msgstr "🔐 100% Free and Safe"
 
 #: .\templates\index.html:91
 msgid "Выбирайте"
-msgstr "Choose"
+msgstr "The Choice Is Yours"
 
 #: .\templates\index.html:93
 msgid ""
 "Просматривайте профили пользоватилей, отмечайте симпатии и дарите "
 "запоминающиеся подарки!"
-msgstr "View user profiles, mark likes and give memorable gifts!"
+msgstr ""
+"Check out the profiles of other users, find your matches and send gifts that "
+"will leave an impression!"
 
 #: .\templates\index.html:101
 msgid "Общайтесь"
-msgstr "Communicate"
+msgstr "Chats Approved By You"
 
 #: .\templates\index.html:103
 msgid ""
-"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого "
-"момента можно переходить в приватную беседу!"
+"При взаимной симпатии произойдет СОВПАДЕНИЕ! Это означает что c этого момента "
+"можно переходить в приватную беседу!"
 msgstr ""
-"With mutual sympathy, COINCIDENCE will occur! This means that from this "
-"moment you can go to private conversation!"
+"When two people approve each other’s profiles, a MATCH is born! From the "
+"moment that you establish a match, you can start a private conversation!"
 
 #: .\templates\index.html:122
-msgid "Новые Знакомства в Вашем Городе"
-msgstr "New acquaintances In your city"
+msgid "Новые Знакомства <br> в Вашем Городе"
+msgstr "New People in Your City"
 
 #: .\templates\index.html:124
 msgid ""
 "Flirtu не показывает вашего точного местоположения, но помогает вам завести "
 "новые знакомства с людьми поблизости."
 msgstr ""
-"Flirtu does not show your exact location, but it helps you meet people "
-"nearby."
+"Flirtu doesn’t show your exact location, but it does help you get to know "
+"people that are close to you."
 
 #: .\templates\index.html:132
 msgid "Знакомства по Интересам"
-msgstr "Dating by Interest"
+msgstr "Mutual Interests"
 
 #: .\templates\index.html:134
 msgid ""
-"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше "
-"шанс познакомиться с кем-то, кто разделяет ваши интересы."
+"Чем больше интересов вы укажете, тем больше людей вас заметит и тем выше шанс "
+"познакомиться с кем-то, кто разделяет ваши интересы."
 msgstr ""
-"The more interests you list, the more people will notice you and the higher "
-"the chance of meeting someone who shares your interests."
+"The more interests you have, the more people will find you and the higher "
+"chance you have of matching with someone who shares those interests."
 
 #: .\templates\index.html:160
 msgid ""
@@ -249,9 +250,9 @@ msgid ""
 "конфиденциальности, вход в систему или заполнение форм."
 msgstr ""
 "These cookies are necessary for the website to function and can not be "
-"switched off in our systems. They are usually only set in response to "
-"actions made by you which amount to a request for services, such as setting "
-"your privacy preferences, logging in, or filling in forms."
+"switched off in our systems. They are usually only set in response to actions "
+"made by you which amount to a request for services, such as setting your "
+"privacy preferences, logging in, or filling in forms."
 
 #: .\templates\index.html:207
 msgid "Предпочтительные"
@@ -259,9 +260,9 @@ msgstr "Preferences"
 
 #: .\templates\index.html:211
 msgid ""
-"Эти файлы cookie позволяют веб-сайту предоставлять расширенные "
-"функциональные возможности и персонализацию. Они могут быть установлены нами "
-"или сторонними поставщиками, услуги которых мы добавили на наши страницы."
+"Эти файлы cookie позволяют веб-сайту предоставлять расширенные функциональные "
+"возможности и персонализацию. Они могут быть установлены нами или сторонними "
+"поставщиками, услуги которых мы добавили на наши страницы."
 msgstr ""
 "These cookies enable the website to provide enhanced functionality and "
 "personalization. They may be set by us or third-party providers whose "
@@ -289,8 +290,8 @@ msgstr "Marketing"
 #: .\templates\index.html:235
 msgid ""
 "Эти файлы cookie могут быть установлены нашими рекламными партнерами. Они "
-"могут использовать файлы cookie для создания профиля ваших интересов и "
-"показа релевантной рекламы на других сайтах."
+"могут использовать файлы cookie для создания профиля ваших интересов и показа "
+"релевантной рекламы на других сайтах."
 msgstr ""
 "These cookies may be set by our advertising partners. They may use the "
 "cookies to build a profile of your interests and show relevant adverts on "
@@ -456,8 +457,7 @@ msgid ""
 "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 "начните общение прямо сейчас!"
 msgstr ""
-"🎉 {name} liked you. Open the “Likes you” section and start chatting right "
-"now!"
+"🎉 {name} liked you. Open the “Likes you” section and start chatting right now!"
 
 #: .\templates\translates.html:15
 msgid ""
@@ -634,8 +634,8 @@ msgstr "Now you will be redirected to the payment process."
 #~| "🎉 Вы понравились пользователю {name}. Откройте раздел “Вы понравились” и "
 #~| "начните общение прямо сейчас!"
 #~ msgid ""
-#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо "
-#~ "сейчас. Откройте раздел “Вы понравились”"
+#~ "🎉 Вы понравились пользователю {name}, {age}. Посмотрите фото прямо сейчас. "
+#~ "Откройте раздел “Вы понравились”"
 #~ msgstr ""
 #~ "🎉 {name} liked you. Open the “Likes you” section and start chatting right "
 #~ "now!"
