@@ -17,7 +17,7 @@
                 {% endfor %}
         </div>
 
-    <img src="{% static 'assets/img/down-black.svg' %}" alt="">
+    <img src="{% static 'assets/img/down-black.svg' %}" alt="down arrow">
     <form id="language_change_form" action="/i18n/setlang/" method="POST">
         {% csrf_token %}
         <input id="next" name="next" type="hidden" value="{{ request.path }}"/>
