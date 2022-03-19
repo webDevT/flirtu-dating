@@ -923,6 +923,16 @@ h2 br {
     -ms-flex-align: end;
     align-items: flex-end;
 }
+/*start bage section style*/
+.bages-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bage-item {
+    padding: 0 30px;
+}
+/*and bage section style*/
 
 @media only screen and (max-width: 1700px) {
     h1 {
@@ -1582,6 +1592,17 @@ h2 br {
         font-size: 5.5vw;
         text-align: center;
     }
+    .bages-wrapper {
+        margin-top: 7vw;
+       
+        flex-wrap: wrap;
+    }
+    .bage-item {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vw;
+    }
 }
 @media only screen and (max-width: 700px) {
     .header {
@@ -1653,6 +1674,10 @@ h2 br {
     }
     .contact-us__sub-title {
         font-size: 3.2vw;
+    }
+    .bage-item img {
+        max-width: 25vw;
+        max-height: 25vw;
     }
 }
 @media only screen and (max-width: 550px) {
