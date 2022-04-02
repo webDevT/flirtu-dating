@@ -202,14 +202,13 @@ h2 {
 }
 .footer {
     text-align: center;
-    background: url("../img/footer-bg.png");
+    background: url("../img/bg-f.png") top center / 100%, linear-gradient(242.94deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%), url("../img/footer-bg.jpeg") center / cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100%;
     color: #fff;
     padding-bottom: 34px;
     font-size: 16px;
-    padding-top: 18vw;
+    padding-top: 14vw;
+    margin-top: 5vw;
 }
 .footer__template-page {
     background: #fff;
@@ -1728,8 +1727,8 @@ h2 br {
         margin-bottom: 5vw;
     }
     .footer {
-        background-size: 366vw;
-        background-position: top -100vw center;
+         background: url("../img/bg-f.png") top center / 200%, linear-gradient(242.94deg, rgba(0, 209, 255, 0.7) 0%, rgba(7, 45, 72, 0.7) 100%), url("../img/footer-bg.jpeg") center / cover;
+         background-repeat: no-repeat;
     }
     .footer__bottom {
         margin-top: 15vw;
@@ -1740,6 +1739,7 @@ h2 br {
     .footer {
         padding-bottom: 13vw;
         padding-top: 32vw;
+        margin-top: 15vw;
     }
     .footer__title {
         font-size: 40px;
