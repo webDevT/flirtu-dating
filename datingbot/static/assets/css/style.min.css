@@ -2023,6 +2023,12 @@ h2 br {
         left: 50%;
         transform: translateX(-50%);
     }
+    .fix-button img {
+        width: 10vw;
+        height: 10vw;
+        margin-right: 3vw;
+    }
+
 }
 @media only screen and (max-width: 450px) {
     .footer__template-page {
