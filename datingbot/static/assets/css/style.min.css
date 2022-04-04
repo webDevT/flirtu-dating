@@ -948,6 +948,9 @@ h2 br {
         max-width: 98vw;
         width: 98vw;
     }
+    .fix-button {
+        display: none;
+    }
    
 }
 @media only screen and (max-width: 1500px) {
@@ -1950,7 +1953,7 @@ h2 br {
         margin-top: 13vw;
     }
     .footer {
-        padding-bottom: 5vw;
+        padding-bottom: 15vw;
     }
     .footer__copy-text,
     .footer__bottom .footer__copy a {
@@ -2003,6 +2006,22 @@ h2 br {
     }
     .content__text {
         font-size: 4.375vw;
+    }
+    .fix-button {
+        position: fixed;
+        bottom: 1vw;
+        width: 95%;
+        padding: 15px 10px;
+        font-size: 5.2vw;
+        background: linear-gradient(46.19deg, #39d8f2 0%, #157bd3 99.28%);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        z-index: 999;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 @media only screen and (max-width: 450px) {
