@@ -2022,6 +2022,7 @@ h2 br {
         z-index: 999;
         left: 50%;
         transform: translateX(-50%);
+        font-weight: bold;
     }
     .fix-button img {
         width: 10vw;
