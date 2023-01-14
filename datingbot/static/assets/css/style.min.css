@@ -990,10 +990,15 @@ h2 br {
     border-radius: 10px;
     padding: 24px;
     padding-top: 35px;
-    min-height: 400px;
+    height: 70% !important;
+    overflow: hidden;
     
 }
+.lenguage-modal__content .row {
+    overflow-y: scroll;
+    max-height: 75%;
 
+}
 .lenguage-modal__icon {
     display: flex;
     align-items: center;
@@ -1024,6 +1029,18 @@ h2 br {
 .lenguage__item:hover {
     background: rgba(17, 20, 24, 0.08);
     
+}
+
+.lenguage-modal__content .row::-webkit-scrollbar { 
+    width: 0;
+}
+.lenguage-modal__content .row { 
+    -ms-overflow-style: none;
+}
+
+
+.lenguage-modal__content .row { 
+    overflow: -moz-scrollbars-none; 
 }
 
 .lenguage__origin {
@@ -2194,6 +2211,15 @@ h2 br {
     }
     .form-row {
         margin-bottom: 20px;
+    }
+    .lenguage__name {
+        font-size: 13px;
+    }
+    .lenguage__origin {
+        font-size: 14px;
+    }
+    .lenguage__item {
+        padding: 8px 4px;
     }
 }
 @media only screen and (max-width: 430px) {
