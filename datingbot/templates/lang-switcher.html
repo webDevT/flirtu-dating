@@ -1,26 +1,110 @@
 {% load i18n cstatic %}
 <div class="header__leng">
-    {% get_available_languages as languages %}
-    {% get_current_language as LANGUAGE_CODE %}
 
-        <span>{{ LANGUAGE_CODE|upper }}</span>
-        <div class="header__leng-links">
-            {% for lang_code, lang_name in languages %}
-                    {% if lang_code in 'en,es,ru' %}
-                        {% language lang_code %}
-                            <a href="javascript://"
-                               onclick="document.getElementById('language_setter').value = '{{ lang_code }}';
-                                       document.getElementById('next').value = '{% url request.resolver_match.url_name %}';
-                                       document.getElementById('language_change_form').submit();">{{ lang_code|upper }}</a>
-                        {% endlanguage %}
-                    {% endif %}
-                {% endfor %}
+<div class="header__leng-header" id="header__leng-header">
+    <img src="{% static 'assets/img/leng-icon.svg' %}" alt="" class="leng-icon"> 
+  <div class="leng-title">
+ English
+  </div>
+</div>
+  
+
+<!-- start leng modal -->
+<div class="lenguage-modal" id="lenguage-modal">
+    <div class="lenguage-modal__content">
+        <div class="close-modal" id="close-modal">
+            <img src="{% static 'assets/img/close2.svg' %}" alt="" class="close-leng-modal">
+        </div>
+        
+       <div class="lenguage-modal__icon">
+        <img src="{% static 'assets/img/fav.ico' %}" alt="">
+       </div>
+       <div class="lenguage-modal__title">
+        Ghoose lenguage
+       </div>
+       <div class="selected-language">
+        English
+       </div>
+
+       <div class="row">
+
+        <div class="col-md-3 col-6">
+            <a href="" class="lenguage__item">
+                <div class="lenguage__origin active">
+                    English
+                </div>
+                <div class="lenguage__name">
+                    English
+                </div>
+            </a>
         </div>
 
-    <img src="{% static 'assets/img/down-black.svg' %}" alt="down arrow">
-    <form id="language_change_form" action="/i18n/setlang/" method="POST">
-        {% csrf_token %}
-        <input id="next" name="next" type="hidden" value="{{ request.path }}"/>
-        <input id="language_setter" type="hidden" name="language" value="en"/>
-    </form>
+        <div class="col-md-3 col-6">
+            <a href="" class="lenguage__item">
+                <div class="lenguage__origin ">
+                    Español
+                </div>
+                <div class="lenguage__name">
+                    Spanish
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-6">
+            <a href="" class="lenguage__item">
+                <div class="lenguage__origin ">
+                    Italiano
+                </div>
+                <div class="lenguage__name">
+                    Italian
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-6">
+            <a href="" class="lenguage__item">
+                <div class="lenguage__origin ">
+                    Français 
+                </div>
+                <div class="lenguage__name">
+                    French
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-6">
+            <a href="" class="lenguage__item">
+                <div class="lenguage__origin ">
+                    Русский
+                </div>
+                <div class="lenguage__name">
+                    Russian
+                </div>
+            </a>
+        </div>
+
+      
+
+       </div>
+    </div>
+</div>
+<!-- end leng modal -->
+<script>
+   document.getElementById('header__leng-header').onclick = function() {
+    document.getElementById('lenguage-modal').classList.add('show');
+}
+
+document.getElementById('close-modal').onclick = function() {
+    document.getElementById('lenguage-modal').classList.remove('show');
+}
+
+const modal = document.querySelector('.lenguage-modal');
+document.getElementById('lenguage-modal').onclick = function(e){
+    if ( event.target.className != 'lenguage-modal' ) {
+        modal.classList.remove('show');
+        
+    };
+};
+</script>
+  
 </div>

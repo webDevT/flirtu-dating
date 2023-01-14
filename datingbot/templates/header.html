@@ -31,10 +31,11 @@
   </li>
 </ul>
           </div>
+          {% include "lang-switcher.html" %}
           <div class="button button--sign-up">
             <a href="{% url 'launch_bot' %}{% if query_string %}?{{ query_string }}{% endif %}">{% trans "Регистрация" %}</a>
           </div>
-          {% include "lang-switcher.html" %}
+          
 
           <div class="menu-btn">
           <div class="menu-row"></div>
